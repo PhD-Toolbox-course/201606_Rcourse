@@ -4,6 +4,7 @@
 
 \documentclass{beamer}
 
+
 \mode<presentation> {
 
 % Theme
@@ -17,6 +18,12 @@
 
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{cite}
+\usepackage{natbib}
+\usepackage{multirow}
+\usepackage{rotating}
+
+
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -50,18 +57,62 @@ University of Cambridge \\ % Your institution for the title page
 %----------------------------------------------------------------------------------------
 
 %------------------------------------------------
+\begin{frame}
 \section{Introduction} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+\vspace{50px}
+\begin{flushright}
+\scriptsize {\bf Replication} is the ultimate standard by which scientific claims are judged\\ %\citep{Peng:2011et}
+\scriptsize The fact that an analysis is reproducible does not guarantee the quality, correctness, or validity of the published results.
+\end{flushright}
+\end{frame}
 %------------------------------------------------
 
 %\subsection{Subsection Example} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 \begin{frame}
-\frametitle{What RR is}
-
+\frametitle{What reproducible research is}
+\begin{figure}
+\includegraphics[scale=0.45]{figures/001.jpg}
+\end{figure}
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
+\frametitle{What reproducible research is}
+\begin{figure}
+\includegraphics[scale=0.45]{figures/thenamiracleoccurs.jpg}
+\end{figure}
+\footnotesize 
+\begin{itemize}
+\item This is exactly how it seems when you try to figure out how authors got from a large and complex data set to a dense paper with lots of busy figures. \\Without access to the data and the analysis code, a miracle occurred. 
+\item And  there should be {\sc no miracles in science.}%\cite{Markowetz:2016cs}
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{What reproducible research is}
+\Large\centering $DATA +  ANALYSIS \rightarrow RESULTS$\\
+\rule{\textwidth}{0.05pt}\vspace{20px}
+
+\centering{\sc\Large Reproducible vs Replicable}
+\begin{table}[]
+\centering
+\begin{tabular}{cccc}
+                                           &                                & \multicolumn{2}{c}{DATA}                          \\ \cline{3-4} 
+                                           & \multicolumn{1}{c|}{}          & Same         & \multicolumn{1}{c|}{Different}     \\ \cline{2-4} 
+\multicolumn{1}{c|}{\multirow{2}{*}{CODE}} & \multicolumn{1}{c|}{Same}      & Reproducible & \multicolumn{1}{c|}{Replicable}    \\
+\multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{Different} & Robust       & \multicolumn{1}{c|}{Generalisable} \\ \cline{2-4} 
+\end{tabular}
+\end{table}
+
+\end{frame}
+
+
+%------------------------------------------------
+\begin{frame}
+Does reproducibility sound like extra work? It can be, particularly when one is first trying to do it, that is, to break one's own previous nonreproducible habits
 \frametitle{Bullet Points}
 \begin{itemize}
 \item Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -158,32 +209,27 @@ $E = mc^2$
 \begin{frame}
 \frametitle{Figure}
 Uncomment the code on this slide to include your own image from the same directory as the template .TeX file.
-%\begin{figure}
-%\includegraphics[width=0.8\linewidth]{test}
-%\end{figure}
+
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
 \frametitle{Citation}
-An example of the \verb|\cite| command to cite within the presentation:\\~
+An example of the \verb|\cite| command to cite within the presentation:\\
 
-This statement requires citation \cite{p1}.
+This statement requires citation \cite{p1}. 
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
 \frametitle{References}
-\footnotesize{
-\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
-\bibitem[Smith, 2012]{p1} John Smith (2012)
-\newblock Title of the publication
-\newblock \emph{Journal Name} 12(3), 45 -- 678.
-\end{thebibliography}
-}
+\fontsize{6}{7.2}\selectfont
+\bibliography{bib2}
+\bibliographystyle{plainnat}
 \end{frame}
+
 
 %------------------------------------------------
 

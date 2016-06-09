@@ -18,10 +18,10 @@
 
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-\usepackage{cite}
-\usepackage{natbib}
+%\usepackage{cite}
+\usepackage[numbers]{natbib}
 \usepackage{multirow}
-\usepackage{rotating}
+\usepackage{hyperref}
 
 
 
@@ -61,13 +61,12 @@ University of Cambridge \\ % Your institution for the title page
 \section{Introduction} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
 \vspace{50px}
 \begin{flushright}
-\scriptsize {\bf Replication} is the ultimate standard by which scientific claims are judged\\ %\citep{Peng:2011et}
+\scriptsize {\bf Replication} is the ultimate standard by which scientific claims are judged \citep{Peng:2011et}\\
 \scriptsize The fact that an analysis is reproducible does not guarantee the quality, correctness, or validity of the published results.
 \end{flushright}
 \end{frame}
 %------------------------------------------------
 
-%\subsection{Subsection Example} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
 \begin{frame}
 \frametitle{What reproducible research is}
 \begin{figure}
@@ -82,10 +81,10 @@ University of Cambridge \\ % Your institution for the title page
 \begin{figure}
 \includegraphics[scale=0.45]{figures/thenamiracleoccurs.jpg}
 \end{figure}
-\footnotesize 
+\footnotesize
 \begin{itemize}
-\item This is exactly how it seems when you try to figure out how authors got from a large and complex data set to a dense paper with lots of busy figures. \\Without access to the data and the analysis code, a miracle occurred. 
-\item And  there should be {\sc no miracles in science.}%\cite{Markowetz:2016cs}
+\item This is exactly how it seems when you try to figure out how authors got from a large and complex data set to a dense paper with lots of busy figures. \\Without access to the data and the analysis code, a miracle occurred.
+\item And  there should be {\sc no miracles in science.} \citep{Markowetz:2016cs}
 \end{itemize}
 \end{frame}
 
@@ -100,125 +99,184 @@ University of Cambridge \\ % Your institution for the title page
 \begin{table}[]
 \centering
 \begin{tabular}{cccc}
-                                           &                                & \multicolumn{2}{c}{DATA}                          \\ \cline{3-4} 
-                                           & \multicolumn{1}{c|}{}          & Same         & \multicolumn{1}{c|}{Different}     \\ \cline{2-4} 
+                                           &                                & \multicolumn{2}{c}{DATA}                          \\ \cline{3-4}
+                                           & \multicolumn{1}{c|}{}          & Same         & \multicolumn{1}{c|}{Different}     \\ \cline{2-4}
 \multicolumn{1}{c|}{\multirow{2}{*}{CODE}} & \multicolumn{1}{c|}{Same}      & Reproducible & \multicolumn{1}{c|}{Replicable}    \\
-\multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{Different} & Robust       & \multicolumn{1}{c|}{Generalisable} \\ \cline{2-4} 
+\multicolumn{1}{c|}{}                      & \multicolumn{1}{c|}{Different} & Robust       & \multicolumn{1}{c|}{Generalisable} \\ \cline{2-4}
 \end{tabular}
 \end{table}
-
+\vspace{3px}
+\tiny Ref: {\url{https://github.com/KirstieJane/ReproducibleResearch}}
 \end{frame}
 
 
 %------------------------------------------------
 \begin{frame}
-Does reproducibility sound like extra work? It can be, particularly when one is first trying to do it, that is, to break one's own previous nonreproducible habits
-\frametitle{Bullet Points}
-\begin{itemize}
-\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
-\item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus eu
-\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
-\item Nam cursus est eget velit posuere pellentesque
-\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
-\end{itemize}
-\end{frame}
+\frametitle{What reproducible research is}
 
+\Large{Reproducibility/reproduce}\\\footnotesize A study is reproducible if there is a specific set of computational functions/analyses (usually specified in terms of code) that exactly reproduce all of the numbers in a published paper from raw data.
+
+\Large{Replication/replicate}\\\footnotesize A study is only replicable if you perform the exact same experiment (at least) twice, collect data in the same way both times, perform the same data analysis, and arrive at the same conclusions.
+\rule{\textwidth}{0.05pt}
+{\bf Replicability} requires new samples and new data\footnote{\tiny{in particular biological replicates}}, which introduces new variability, and additional risks of errors. {\bf Reproducibility} is, to some extent, a technical challenge, while replication gives the results scientific validity.
+\rule{\textwidth}{0.05pt}\\
+\vspace{3px}
+\tiny Ref: {\url{https://github.com/lgatto/TeachingMaterial/tree/master/_open-rr-bioinfo-best-practice}}
+\end{frame}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Blocks of Highlighted Text}
-\begin{block}{Block 1}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-\end{block}
-
-\begin{block}{Block 2}
-Pellentesque sed tellus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum quis magna at risus dictum tempor eu vitae velit.
-\end{block}
-
-\begin{block}{Block 3}
-Suspendisse tincidunt sagittis gravida. Curabitur condimentum, enim sed venenatis rutrum, ipsum neque consectetur orci, sed blandit justo nisi ac lacus.
-\end{block}
+\section{Reproducible research Reasons}
+\vspace{50px}
+\begin{flushright}
+\scriptsize How does working reproducibly help to achieve more as a scientist \citep{Markowetz:2016cs}\\
+\end{flushright}
 \end{frame}
-
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Multiple Columns}
-\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
-
-\column{.45\textwidth} % Left column and width
-\textbf{Heading}
+\frametitle{Reasons to work reproducibly}
+\Large REPRODUCIBILITY\\
+Idealist:
 \begin{enumerate}
-\item Statement
-\item Explanation
-\item Example
+\tiny
+\item It is the foundation of science!
+\item The world would be a better place if everyone worked transparently and reproducibly!
+\end{enumerate}
+Realist:
+\begin{enumerate}
+\footnotesize
+\item It helps to avoid disaster
+\begin{itemize}
+\tiny
+\item You need to record in detail how you got there
+\item Work reproducibly early on will save you time later
+\end{itemize}
+\item It makes it easier to write papers
+\begin{itemize}
+\tiny
+\item To have very transparent data and code, it costs just few minutes to spot a mistake (if any)
+\end{itemize}
+\item It helps reviewers see it your way
+\begin{itemize}
+\tiny
+\item Made the data and well-documented code easily accessible to the reviewers
+\end{itemize}
+\item It enables continuity of your work
+\begin{itemize}
+\tiny
+\item How can you ensure the continuity of work in your lab if pro- gress is not documented reproducibly?
+\item No proof of reproducibility, no result!
+\end{itemize}
+\item It helps to build your reputation
+\begin{itemize}
+\tiny
+\item To build a reputation for being an honest and careful researcher
+\end{itemize}
+
 \end{enumerate}
 
-\column{.5\textwidth} % Right column and width
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ultricies in feugiat rutrum, porttitor sit amet augue. Aliquam ut tortor mauris. Sed volutpat ante purus, quis accumsan dolor.
-
-\end{columns}
 \end{frame}
 
 %------------------------------------------------
-\section{Second Section}
+\section{Reproducible research Tools}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Table}
-\begin{table}
-\begin{tabular}{l l l}
-\toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-\midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\end{table}
+\frametitle{Tools}
+Literate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language.
 \end{frame}
 
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
+\frametitle{Tools}
+At the lowest level, working reproducibly just means avoiding beginners? mistakes. Keep your project organized, name your files and directories in some informative way, store your data and code at a single backed-up location. Don?t spread your data over different servers, laptops and hard drives.To achieve the next levels of reproducibility, you need to learn some tools of computational reproducibility [8]. In general, reproducibility is improved when there is less clicking and pasting and more scripting and coding. For example, do your analysis in R (https://www.r-project.org/) or Python (https:// www.python.org/) and document your analysis using knitR (http://yihui.name/knitr/) or IPython notebooks (http:// ipython.org/). These tools help you to merge descriptive text with analysis code into dynamic documents that can be automatically updated every time the data or code change.As a next step, learn how to use a version-control system like git (https://git-scm.com/) on a collaborative platform such as GitHub (https://github.com/). Finally, if you want to become a pro, learn to use docker (http://www.docker.com/), which will make your analysis self-contained and easily transportable to different systems.
 \end{frame}
 
-%------------------------------------------------
 
-\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Verbatim}
-\begin{example}[Theorem Slide Code]
-\begin{verbatim}
+%------------------------------------------------
 \begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
-\end{frame}\end{verbatim}
-\end{example}
+\frametitle{Tools}
+
+
+Learning the tools of the trade will require commitment and a massive investment of your time and energy. A priori it is not clear why the benefits of working reproducibly outweigh its costs.
+
+Does reproducibility sound like extra work? It can be, particularly when one is first trying to do it, that is, to break one's own previous nonreproducible habits
+
+
 \end{frame}
 
+%------------------------------------------------
+\section{Reproducible research Rules}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 1}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 2}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 3}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 4}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 5}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 6}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 7}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 8}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 9}
+
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Rule 10}
+
+
+\end{frame}
+%------------------------------------------------
+\section{Conclusion}
 %------------------------------------------------
 
 \begin{frame}
-\frametitle{Figure}
-Uncomment the code on this slide to include your own image from the same directory as the template .TeX file.
+\frametitle{Conclusions}
 
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Citation}
-An example of the \verb|\cite| command to cite within the presentation:\\
-
-This statement requires citation \cite{p1}. 
+My advice is: learn the tools of reproducibility (Box 1) as quickly as possible and use them in every project.
 \end{frame}
 
 %------------------------------------------------
@@ -226,17 +284,23 @@ This statement requires citation \cite{p1}.
 \begin{frame}
 \frametitle{References}
 \fontsize{6}{7.2}\selectfont
+\bibliographystyle{apalike}
 \bibliography{bib2}
-\bibliographystyle{plainnat}
 \end{frame}
-
-
 %------------------------------------------------
 
 \begin{frame}
-\Huge{\centerline{The End}}
+\frametitle{Acknowledgements}
+\begin{itemize}
+\item[--] \Large Mike Deery \small{ Manager of the Cambridge Center for Proteomics}
+\item[--] \Large Laurent Gatto \small{Computational Proteomics Unit}
+\vspace{20px}
+\item[--] \Large Andrea Genre \small{Universita' di Torino}
+\end{itemize}
 \end{frame}
+
+
 
 %----------------------------------------------------------------------------------------
 
-\end{document} 
+\end{document}

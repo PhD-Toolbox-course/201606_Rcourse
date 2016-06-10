@@ -322,26 +322,42 @@ If manual operations cannot be avoided, you should as a minimum note down which 
 %------------------------------------------------
 \begin{frame}
 \frametitle{Rule 7}
-\
-
+{\sc Always Store Raw Data}\
+\begin{itemize}
+    \item Always store in a safe place the raw data
+    \item Never touch or mofidy the raw data
+\end{itemize}
 \end{frame}
 %------------------------------------------------
 \begin{frame}
 \frametitle{Rule 8}
-
+{\sc Generate Hierarchical Analysis Output, Allowing Layers of Increasing Detail to Be Inspected}
+\begin{itemize}
+    \item The final results that make it to an article, be it plots or tables, often represent highly summarized data
+    \item In order to validate and fully understand the main result, it is often useful to inspect the detailed values underlying the summaries
+    \item When working with summarized results, you should as a minimum at least once generate, inspect, and validate the detailed values underlying the summaries
+\end{itemize}
 
 \end{frame}
 %------------------------------------------------
 \begin{frame}
 \frametitle{Rule 9}
-
-
+{\sc Connect Textual Statements to Underlying Results}
+\begin{itemize}
+    \item The results of analyses and their corresponding textual interpretations are clearly interconnected but often lie in different places
+    \item Results usually live on a personal computer, while interpretations live in text documents
+    \item To allow efficient retrieval of details behind textual statements, we suggest that statements are connected to underlying results already from the time the statements are initially formulated
+    \item {\bf Integrate reproducible analyses directly into textual documents}
+\end{itemize}
 \end{frame}
 %------------------------------------------------
 \begin{frame}
 \frametitle{Rule 10}
-
-
+{\sc Provide Public Access to Scripts, Runs, and Results}
+\begin{itemize}
+    \item All input data, scripts, versions, parameters, and inter- mediate results should be made publicly and easily accessible
+    \item Making reproducibility of your work by peers a realistic possibility sends a strong signal of quality, trustworthiness, and transparency
+\end{itemize}
 \end{frame}
 %------------------------------------------------
 \begin{frame}
@@ -366,7 +382,9 @@ If manual operations cannot be avoided, you should as a minimum note down which 
 
 \begin{frame}
 \frametitle{Tools}
-At the lowest level, working reproducibly just means avoiding beginners? mistakes. Keep your project organized, name your files and directories in some informative way, store your data and code at a single backed-up location. Don?t spread your data over different servers, laptops and hard drives.To achieve the next levels of reproducibility, you need to learn some tools of computational reproducibility [8]. In general, reproducibility is improved when there is less clicking and pasting and more scripting and coding. For example, do your analysis in R (https://www.r-project.org/) or Python (https:// www.python.org/) and document your analysis using knitR (http://yihui.name/knitr/) or IPython notebooks (http:// ipython.org/). These tools help you to merge descriptive text with analysis code into dynamic documents that can be automatically updated every time the data or code change.As a next step, learn how to use a version-control system like git (https://git-scm.com/) on a collaborative platform such as GitHub (https://github.com/). Finally, if you want to become a pro, learn to use docker (http://www.docker.com/), which will make your analysis self-contained and easily transportable to different systems.
+\begin{center}\Large\texttt{R}Markdown\end{center}
+\begin{center}\includegraphics[scale=0.35]{figures/RMarkdownOutputFormats.png}\end{center}
+\begin{center}\tiny Ref: {\url{http://rmarkdown.rstudio.com/index.html}}\end{center}
 \end{frame}
 
 

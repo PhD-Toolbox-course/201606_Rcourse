@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  10 JUN 2016 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  11 JUN 2016 00:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1200,16 +1200,52 @@ Overfull \vbox (2.94864pt too high) detected at line 388
 
 [26
 
- <./figures/RMarkdownOutputFormats.png>] [27
+ <./figures/RMarkdownOutputFormats.png>]
+<figures/RMarkdown.png, id=201, 655.44875pt x 378.41376pt>
+File: figures/RMarkdown.png Graphic file (type png)
 
-] [28
+<use figures/RMarkdown.png>
+Package pdftex.def Info: figures/RMarkdown.png used on input line 394.
+(pdftex.def)             Requested size: 294.9492pt x 170.2846pt.
 
-] [29
+Overfull \vbox (2.7136pt too high) detected at line 394
+ []
 
-] (./RR.bbl) [30
+[27
+
+ <./figures/RMarkdown.png>] [28
 
 ]
-[31
+<figures/git.png, id=213, 731.8542pt x 411.939pt>
+File: figures/git.png Graphic file (type png)
+ <use figures/git.png>
+Package pdftex.def Info: figures/git.png used on input line 415.
+(pdftex.def)             Requested size: 329.33134pt x 185.37082pt.
+
+Overfull \hbox (22.04147pt too wide) in paragraph at lines 415--415
+ [] 
+ []
+
+
+Overfull \vbox (33.43973pt too high) detected at line 415
+ []
+
+[29
+
+ <./figures/git.png>] [30
+
+] [31
+
+]
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <24.88> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 438.
+
+[32
+
+] (./RR.bbl) [33
+
+] [34
 
 ]
 \tf@nav=\write6
@@ -1221,11 +1257,11 @@ Overfull \vbox (2.94864pt too high) detected at line 388
 \tf@snm=\write8
 \openout8 = `RR.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 464.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
  (./RR.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 437.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 437.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 464.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 464.
 Package rerunfilecheck Info: File `RR.out' has not changed.
 (rerunfilecheck)             Checksum: 62349E4AE05B1A8EE22246AFDC74DD57;280.
 
@@ -1236,14 +1272,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 437.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 464.
  ) 
 Here is how much of TeX's memory you used:
- 20874 strings out of 493089
- 413831 string characters out of 6134843
- 478138 words of memory out of 5000000
- 23786 multiletter control sequences out of 15000+600000
- 21562 words of font info for 78 fonts, out of 8000000 for 9000
+ 20900 strings out of 493089
+ 414199 string characters out of 6134843
+ 478136 words of memory out of 5000000
+ 23803 multiletter control sequences out of 15000+600000
+ 22169 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,88p,1704b,769s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pf
@@ -1260,10 +1296,10 @@ r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on RR.pdf (31 pages, 327454 bytes).
+Output written on RR.pdf (34 pages, 604844 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 232 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 313 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,10 +2,7 @@
 title: "RBasic"
 author: "Marco Chiapello"
 date: "06 July 2016"
-output: 
-  beamer_presentation:
-    theme: "Rochester"
-    colortheme: "dove"
+output: beamer_presentation
 ---
 
 ## Outlook
@@ -62,9 +59,14 @@ R is popular.
 
 ## Data types
 1. Vector
-```{r}
+
+```r
 x <- c(1,2,3,4,5,6,7,8,9)
 x
+```
+
+```
+## [1] 1 2 3 4 5 6 7 8 9
 ```
 
 
@@ -75,9 +77,17 @@ x
 
 
 2. Matrix
-```{r}
+
+```r
 y <- matrix(x, nrow = 3)
 y
+```
+
+```
+##      [,1] [,2] [,3]
+## [1,]    1    4    7
+## [2,]    2    5    8
+## [3,]    3    6    9
 ```
 
 
@@ -90,19 +100,64 @@ y
 
 ## Data manipulation
 
-```{r}
+
+```r
 1 + 1
+```
+
+```
+## [1] 2
+```
+
+```r
 4 - 5
+```
+
+```
+## [1] -1
+```
+
+```r
 2 * 2
+```
+
+```
+## [1] 4
+```
+
+```r
 4 / 2
+```
+
+```
+## [1] 2
 ```
 
 ## Data manipulation
 
 Built-in functions
-```{r}
+
+```r
 sqrt(25)
+```
+
+```
+## [1] 5
+```
+
+```r
 abs(-2)
+```
+
+```
+## [1] 2
+```
+
+```r
 log2(2)
+```
+
+```
+## [1] 1
 ```
 

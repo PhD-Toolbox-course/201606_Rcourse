@@ -1,0 +1,61 @@
+<h2 id="outlook">Outlook</h2>
+<p></p>
+<ul>
+<li><p>Introduction</p></li>
+<li><p>Data types</p></li>
+<li><p>Data manipulation</p></li>
+<li><p>Read Data</p></li>
+<li><p>Plotting</p></li>
+</ul>
+<p></p>
+<ul>
+<li><p>Exercise</p></li>
+<li><p>Work on your data</p></li>
+<li><p>Write functions</p></li>
+</ul>
+<h1 id="section">============================</h1>
+<h2 id="introduction">Introduction</h2>
+<p>R is a free software.</p>
+<p>R is a statistical software.</p>
+<p>R is powerfull. (This presentation has been made in R)</p>
+<p>R has a wide community of supporters</p>
+<p>R is popular.</p>
+<h1 id="section-1">============================</h1>
+<h2 id="introduction-1">Introduction</h2>
+<h1 id="section-2">============================</h1>
+<h2 id="r-and-rstudio-installation">R and RStudio installation</h2>
+<p><strong>R</strong> =&gt; http://www.r-project.org</p>
+<p><strong>RStudio</strong> =&gt; http://www.rstudio.com</p>
+<h2 id="data-types">Data types</h2>
+<ol style="list-style-type: decimal">
+<li>Vector</li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>,<span class="dv">9</span>)
+x</code></pre></div>
+<pre><code>## [1] 1 2 3 4 5 6 7 8 9</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Matrix</li>
+</ol>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">y &lt;-<span class="st"> </span><span class="kw">matrix</span>(x, <span class="dt">nrow =</span> <span class="dv">3</span>)
+y</code></pre></div>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    4    7
+## [2,]    2    5    8
+## [3,]    3    6    9</code></pre>
+<h2 id="data-manipulation">Data manipulation</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">1</span> +<span class="st"> </span><span class="dv">1</span></code></pre></div>
+<pre><code>## [1] 2</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">4</span> -<span class="st"> </span><span class="dv">5</span></code></pre></div>
+<pre><code>## [1] -1</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">2</span> *<span class="st"> </span><span class="dv">2</span></code></pre></div>
+<pre><code>## [1] 4</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="dv">4</span> /<span class="st"> </span><span class="dv">2</span></code></pre></div>
+<pre><code>## [1] 2</code></pre>
+<h2 id="data-manipulation-1">Data manipulation</h2>
+<p>Built-in functions</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">sqrt</span>(<span class="dv">25</span>)</code></pre></div>
+<pre><code>## [1] 5</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">abs</span>(-<span class="dv">2</span>)</code></pre></div>
+<pre><code>## [1] 2</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">log2</span>(<span class="dv">2</span>)</code></pre></div>
+<pre><code>## [1] 1</code></pre>

@@ -10,4 +10,9 @@ Peng, R.~D. (2011).
 \newblock {Reproducible research in computational science.}
 \newblock {\em Science (New York, NY)}, 334(6060):1226--1227.
 
+\bibitem[Sandve et~al., 2013]{Sandve:2013gh}
+Sandve, G.~K., Nekrutenko, A., Taylor, J., and Hovig, E. (2013).
+\newblock {Ten Simple Rules for Reproducible Computational Research}.
+\newblock {\em PLoS Computational Biology}, 9(10):e1003285--4.
+
 \end{thebibliography}

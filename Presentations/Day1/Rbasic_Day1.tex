@@ -19,6 +19,8 @@
 \usepackage{hyperref}
 %\usetheme{Warsaw}
 \usepackage[absolute,overlay]{textpos}
+\usepackage{xcolor}
+
 
 % Colors
 %\definecolor{Red}{rgb}{0.7,0,0}
@@ -58,6 +60,7 @@ University of Cambridge \\
 \makeatother
 \setlength{\fancyvrbtopsep}{-3pt}
 \setlength{\fancyvrbpartopsep}{-3pt}
+
 %-------------------------------------------
 % TITLE PAGE
 %-------------------------------------------
@@ -229,6 +232,7 @@ University of Cambridge \\
 \begin{frame}[fragile]{prova}
 	\frametitle{Numbers}
 	The command line can be used as a calculator
+\rule{\textwidth}{0.4pt}
 \begin{Schunk}
 \begin{Sinput}
 > 5 + 7 
@@ -255,13 +259,16 @@ University of Cambridge \\
 [1] 0.7142857
 \end{Soutput}
 \end{Schunk}
-\tiny Note: The number in the square brackets is an indicator of the position in the output
+\rule{\textwidth}{0.4pt}
+\vspace{5pt}
+\small Note: The number in the square brackets is an indicator of the position in the output
 \end{frame}
 
 %%%%%%% 
 \begin{frame}[fragile]{prova}
 	\frametitle{Numbers}
 	You can solve simple or complex calculations 
+	\rule{\textwidth}{0.4pt}
 \begin{Schunk}
 \begin{Sinput}
 > (((20/5)^2)-((5+1/3+4/5-10)*(2-34))-20)
@@ -270,15 +277,123 @@ University of Cambridge \\
 [1] -127.7333
 \end{Soutput}
 \end{Schunk}
-\vspace{10pt}
+\rule{\textwidth}{0.4pt}
+\vspace{20pt}
 \Large But, of course, \texttt{R} is not a calculator
 \end{frame}
 
 %%%%%%% 
 \begin{frame}[fragile]
 	\frametitle{Variables}
-	
+	A \textbf{variable} is a letter or word which takes (or contains) a value. We use the assignment 'operator', <-\\
+	\vspace{10pt}
+	- We can assign a number to a variable
+	\rule{\textwidth}{0.4pt}
+\begin{Schunk}
+\begin{Sinput}
+> x <- 5
+> x
+\end{Sinput}
+\begin{Soutput}
+[1] 5
+\end{Soutput}
+\end{Schunk}
+ \rule{\textwidth}{0.4pt}
+ - We can assign the result of an operation to a variable
+ \rule{\textwidth}{0.4pt}
+\begin{Schunk}
+\begin{Sinput}
+> y <- 5 + 7
+> y
+\end{Sinput}
+\begin{Soutput}
+[1] 12
+\end{Soutput}
+\end{Schunk}
+\rule{\textwidth}{0.4pt}
 \end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Variables}
+	- We can assign use the variables to perform calculation
+	\rule{\textwidth}{0.4pt}
+\begin{Schunk}
+\begin{Sinput}
+> x + y
+\end{Sinput}
+\begin{Soutput}
+[1] 17
+\end{Soutput}
+\end{Schunk}
+ \rule{\textwidth}{0.4pt}
+ - We can assign the change the content of the variable
+ \rule{\textwidth}{0.4pt}
+\begin{Schunk}
+\begin{Sinput}
+> x
+\end{Sinput}
+\begin{Soutput}
+[1] 5
+\end{Soutput}
+\begin{Sinput}
+> x <- x - y
+> x
+\end{Sinput}
+\begin{Soutput}
+[1] -7
+\end{Soutput}
+\end{Schunk}
+\rule{\textwidth}{0.4pt}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Function}
+	\textbf{Functions} in \texttt{R} perform operations on arguments (the input(s) to the function). \\ Arguments are always contained in parentheses, i.e. curved brackets (), separated by commas.
+	\vspace{10pt}
+	
+\begin{Schunk}
+\begin{Sinput}
+> sum(3, 4, 5, 6)
+\end{Sinput}
+\begin{Soutput}
+[1] 18
+\end{Soutput}
+\begin{Sinput}
+> max(3, 4, 5, 6)
+\end{Sinput}
+\begin{Soutput}
+[1] 6
+\end{Soutput}
+\begin{Sinput}
+> min(3, 4, 5, 6)
+\end{Sinput}
+\begin{Soutput}
+[1] 3
+\end{Soutput}
+\end{Schunk}
+
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Function extention}
+	\texttt{R} contains a lot of pre-builtin functions, but through the so called \textit{packages} is possible extend the \texttt{R} functionalities enormously.
+	\vspace{30pt}
+	Alternatevely, you can write your own function
+\begin{Schunk}
+\begin{Sinput}
+> summ <- function(a,b){ a + b }
+> summ(1,2)
+\end{Sinput}
+\begin{Soutput}
+[1] 3
+\end{Soutput}
+\end{Schunk}
+\end{frame}
+
+
 
 \subsection{Vector}
 %%%%%%% 

@@ -1,0 +1,277 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+
+\documentclass{beamer}
+\mode<presentation> {
+% Theme
+\usetheme{metropolis}
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+%Packages
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+%\usepackage{cite}
+\usepackage[numbers]{natbib} % For bibliography
+\usepackage{multirow}
+\usepackage{hyperref}
+%\usetheme{Warsaw}
+\usepackage[absolute,overlay]{textpos}
+
+% Colors
+%\definecolor{Red}{rgb}{0.7,0,0}
+%\definecolor{Blue}{rgb}{0,0,0.8}
+
+% Prepare title and TOC
+\title[Short title]{Introduction to R} 
+\author{Marco Chiapello} 
+\institute[Center for Proteomics] 
+{
+Center for Proteomics\\
+University of Cambridge \\ 
+\medskip
+\textit{mc983@cam.ac.uk} 
+}
+\date{\today} 
+
+%\AtBeginSection[]
+%{
+%\begin{frame}<beamer>
+%\frametitle{Overview}
+%\tableofcontents[currentsection]
+%\end{frame}
+%}
+
+
+%-------------------------------------------
+% MAIN DOCUMENT
+%-------------------------------------------
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\newlength{\fancyvrbtopsep}
+\newlength{\fancyvrbpartopsep}
+\makeatletter
+\FV@AddToHook{\FV@ListParameterHook}{\topsep=\fancyvrbtopsep\partopsep=\fancyvrbpartopsep}
+\makeatother
+\setlength{\fancyvrbtopsep}{-3pt}
+\setlength{\fancyvrbpartopsep}{-3pt}
+%-------------------------------------------
+% TITLE PAGE
+%-------------------------------------------
+\begin{frame}
+	\titlepage 
+\end{frame}
+
+%-------------------------------------------
+% TABLE OF CONTENTS
+%-------------------------------------------
+\begin{frame}{Overview}
+	\small
+	\tableofcontents
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%-------------------
+% INTRODUCTION
+%-------------------
+\section{Introduction}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{What R is?}
+	\Large The \texttt{R} Project for Statistical Computing
+	\begin{itemize}
+		\small
+		\item \texttt{R} is a free software environment for statistical computing and graphics
+		\item Open source and cross platform (UNIX platforms, Windows and MacOS)
+		\item Extensive graphics capabilities
+		\item Diverse range of add-on packages
+		\item Active community of developers
+		\item Thorough documentation
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{What R is?}
+        \Large The \texttt{R} Project for Statistical Computing\\
+	\small You can find \texttt{R} here:
+	\url{https://www.r-project.org}\\
+	\includegraphics[scale=0.25]{figures/R-project.png}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{What R is?}
+        \Large The \texttt{R} Project for Statistical Computing\\
+	\begin{itemize}
+		\small
+		\item R version 3.3.1 (released 2016-06-21)
+		\item Currently, the CRAN {\tiny(Comprehensive R Archive Network)} package repository features 8609 available packages
+			\begin{itemize}
+				\item \tiny \url{https://cran.r-project.org/web/packages/available_packages_by_name.html}
+			\end{itemize}
+		\item Currently, the Bioconductor repository features 1211 available packages
+			\begin{itemize}
+				\item \tiny \url{http://www.bioconductor.org}
+			\end{itemize}
+		\item Executed using command line, or a graphical user interface (GUI)
+		\item On this course, we use the RStudio GUI
+			\begin{itemize}
+				\item \tiny \url{www.rstudio.com}
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Getting started}
+        \begin{itemize}
+          \item \texttt{R} is a program which, once installed on your system, can be launched and is immediately ready to take input directly from the user
+          \item There are two ways to launch R:
+            \begin{enumerate}
+              \small
+              \item From the command line (particularly useful if you're quite familiar with Linux)
+              \item As an application called RStudio (very good for beginners)
+            \end{enumerate}
+        \end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{Launch R}
+  \texttt{R} can be launched in 2 ways:
+  \begin{enumerate}
+    \item From command line
+      \begin{itemize}
+        \item To start \texttt{R} you need to enter the console (also called terminal or shell)
+        \item To start \texttt{R}, at the prompt simply type: \Large \texttt{R}
+      \end{itemize}
+    \item Using RStudio
+      \begin{itemize}
+          \item To launch RStudio, find the RStudio icon and double-click
+        \end{itemize}
+  \end{enumerate}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio}
+	Since we will use RStudio in this course, let's have a look of the program\\
+	\centering \includegraphics[scale=1.4]{figures/Rstudio_overview.png}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio}
+	\textbf{R console}\\
+	\vspace{20pt}
+	\centering \includegraphics[width=11cm]{figures/RStudio_console.png}\\
+	\small It is the place where you can interactively run R commands
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio}
+	\textbf{Source editor for R scripts}\\
+	\vspace{20pt}
+	\centering \includegraphics[width=10cm]{figures/RStudio_script.png}\\
+	\small It is the place where you can write your scripts
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio}
+	\textbf{Workspace}\\
+	\vspace{16pt}
+	\centering \includegraphics[width=10cm]{figures/RStudio_environment.png}\\
+	\small It is the place where you can view object in the global environment
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio}
+	\textbf{Plot pannel}\\
+	\vspace{20pt}
+	\centering \includegraphics[width=10cm]{figures/RStudio_plot.png}\\
+	\small It is the place where you can view your plots
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio}
+	\textbf{R help}\\
+	\vspace{20pt}
+	\centering \includegraphics[width=10cm]{figures/RStudio_help.png}\\
+	\small It is the place where you can find help
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio}
+	The GUI is divided into 4 main sub-windows\\
+	These sub-windows are customizable\\
+	\vspace{10pt}
+	\centering \includegraphics[width=7cm]{figures/RStudio_option.png}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Basic concepts in R}
+
+%%%%%%% 
+\begin{frame}[fragile]{prova}
+	\frametitle{Numbers}
+	The command line can be used as a calculator
+<<numbers>>=
+5 + 7 
+5 - 7
+5 * 7
+5 / 7
+@
+\tiny Note: The number in the square brackets is an indicator of the position in the output
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]{prova}
+	\frametitle{Numbers}
+	You can solve simple or complex calculations 
+<<number2>>=
+(((20/5)^2)-((5+1/3+4/5-10)*(2-34))-20)
+@
+\vspace{10pt}
+\Large But, of course, \texttt{R} is not a calculator
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Variables}
+	
+\end{frame}
+
+\subsection{Vector}
+%%%%%%% 
+\begin{frame}
+	\centering \Huge Vector
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{Vector}
+\end{frame}
+
+
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{}
+\end{frame}
+
+
+
+\end{document}

@@ -102,10 +102,17 @@
 \headcommand {\beamer@framepages {60}{61}}
 \headcommand {\slideentry {2}{1}{26}{62/62}{Vector}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {2}{1}{27}{63/63}{Vector}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{63}{R packages}}\headcommand {\beamer@subsectionpages {23}{62}}
+\headcommand {\slideentry {2}{2}{1}{63/63}{R packages}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\beamer@partpages {1}{63}}
-\headcommand {\beamer@subsectionpages {23}{63}}
-\headcommand {\beamer@sectionpages {16}{63}}
-\headcommand {\beamer@documentpages {63}}
-\headcommand {\def \inserttotalframenumber {47}}
+\headcommand {\slideentry {2}{2}{2}{64/68}{R packages}{0}}
+\headcommand {\beamer@framepages {64}{68}}
+\headcommand {\slideentry {2}{2}{3}{69/69}{R packages}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\slideentry {2}{2}{4}{70/70}{R packages}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\beamer@partpages {1}{70}}
+\headcommand {\beamer@subsectionpages {63}{70}}
+\headcommand {\beamer@sectionpages {16}{70}}
+\headcommand {\beamer@documentpages {70}}
+\headcommand {\def \inserttotalframenumber {50}}

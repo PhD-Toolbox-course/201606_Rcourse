@@ -51,7 +51,14 @@ University of Cambridge \\
 % MAIN DOCUMENT
 %-------------------------------------------
 \begin{document}
-\SweaveOpts{concordance=TRUE}
+
+<<include=FALSE>>=
+library(knitr)
+opts_chunk$set(
+concordance=TRUE
+)
+@
+
 \newlength{\fancyvrbtopsep}
 \newlength{\fancyvrbpartopsep}
 \makeatletter
@@ -760,66 +767,6 @@ coding.pc
 @  
   \rule{\textwidth}{0.4pt}\\
 	\end{itemize}
-\end{frame}
-
-\subsection{R packages}
-\begin{frame}
-	\centering \Huge R packages
-\end{frame}
-
-\begin{frame}[fragile]
-	\frametitle{R packages}
-	\begin{itemize}
-	\small
-		\item \texttt{R} comes ready loaded with various libraries of functions called \textbf{packages}. e.g. the function \textbf{sum()} is in the base package and sd(), which calculates the standard deviation of a vector, is in the stats package
-	\pause
-		\item There are 1000s of additional packages provided by third parties, and the packages can be found in numerous server locations on the web called repositories
-	\pause
-		\item The two repositories you will come across the most are
-			\begin{itemize}
-				\item The Comprehensive R Archive Network (CRAN)
-				\item Bioconductor
-			\end{itemize}
-	\pause
-		\item CRAN is mirrored in many locations. Set your local mirror in RStudio using Tools > Options, and choose a CRAN mirror
-	\pause
-		\item Bioconductor packages are then loaded with the biocLite() function
-			\begin{itemize}
-				\item source(``http://bioconductor.org/biocLite.R'')
-				\item biocLite(``PackageName'')
-			\end{itemize}
-	\end{itemize}
-\end{frame}
-
- 
-\begin{frame}[fragile]
-	\frametitle{R package}
-	\centering \Huge Exercise
-	\begin{itemize}
-	\small
-		\item Matrix is a CRAN extras packageUse
-			\begin{itemize}
-				\item Use \textbf{install.packages()} function\ldots
-			%	\item install.packages(``Matrix'')
-				\item or in RStudio goto Tools > Install Packages\ldots and type the package name
-			\end{itemize}
-		\item aCGH is a BioConductor package (www.bioconductor.org)
-		%	\begin{itemize}
-			%	\item source(``http://bioconductor.org/biocLite.R'') 
-			%	\item biocLite(``aCGH'')
-		%	\end{itemize}
-	\end{itemize}
-\end{frame}
-
-\begin{frame}[fragile]
-	\frametitle{R package}
-	\begin{itemize}
-	\small
-		\item R needs to be told to use the new functions from the installed packages 
-		\item Use \textbf{library(\ldots)} function to load the newly installed features
-		\item \textbf{library(``Matrix'')} # loads matrix functions
-	\end{itemize}
-	\footsizenote PS: Library(): Lists all the packages you've got installed locally
 \end{frame}
 
 %%%%%%% 

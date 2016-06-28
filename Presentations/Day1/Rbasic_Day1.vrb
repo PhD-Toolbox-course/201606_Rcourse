@@ -1,1 +1,8 @@
-\frametitle{Vector}
+\frametitle{R package}
+	\begin{itemize}
+	\small
+		\item R needs to be told to use the new functions from the installed packages
+		\item Use \textbf{library(\ldots)} function to load the newly installed features
+		\item \textbf{library(``Matrix'')} # loads matrix functions
+	\end{itemize}
+	\footsizenote PS: Library(): Lists all the packages you've got installed locally

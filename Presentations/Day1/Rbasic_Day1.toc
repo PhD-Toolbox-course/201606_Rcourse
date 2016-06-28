@@ -2,3 +2,4 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Basic concepts in R}{16}{0}{2}
 \beamer@subsectionintoc {2}{1}{Vector}{23}{0}{2}
+\beamer@subsectionintoc {2}{2}{R packages}{63}{0}{2}

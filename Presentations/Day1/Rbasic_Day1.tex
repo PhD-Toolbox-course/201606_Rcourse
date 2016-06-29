@@ -79,7 +79,15 @@ University of Cambridge \\
 %----------------------------------------------------------------------------------------
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
-
+\begin{frame}
+	\centering \LARGE RULES
+	\begin{enumerate}
+		\small
+		\item \textbf{EVERY} time you do not understand\ldots\textbf{RAISE YOUR HAND}
+		\item There are \textbf{NOT} stupid questions
+		\item Fill free to \textbf{interrupt me} every time you need
+	\end{enumerate}
+\end{frame}
 %-------------------
 % INTRODUCTION
 %-------------------
@@ -1066,7 +1074,7 @@ H. sapiens
 \end{frame}
 
 
-\section{Data structures}
+\subsection{Data structures}
 
 
 %%%%%%% 
@@ -1881,6 +1889,198 @@ ls.obj.3   2    data.frame list
 \end{frame}
 
 
+
+\section{R for data analysis}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\centering \LARGE 3 steps to Basic data analysis
+\rule{\textwidth}{0.4pt}\\
+	\begin{enumerate}
+			\Large
+		\item Reading in data
+			\small
+			\begin{itemize}
+				\item read.table(); read\_table(); \ldots
+				\item read.csv(); read\_csv(); \ldots
+				\item read\_excel()
+			\end{itemize}
+			\Large
+		\item Analysis 
+			\small
+			\begin{itemize}
+				\item Manipulating and reshaping the data [dplyr]
+				\item Any maths you like
+				\item Plotting the outcome
+			\end{itemize}
+			\Large
+		\item Writing out results
+			\small
+			\begin{itemize}
+				\item write.table(); write\_delim(); \ldots
+				\item write.csv(); write\_csv; write\_tsv; \ldots
+			\end{itemize}
+			\Large
+	\end{enumerate}
+\end{frame}
+
+\subsection{Reading in data}
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large \texttt{R} can import several types of data
+	\begin{itemize}
+		\small
+		\item From disk
+			\begin{itemize}
+				\scriptsize
+				\item csv
+				\item txt
+				\item excel
+				\item SAS
+				\item \ldots
+				\small
+			\end{itemize}
+		\item From database
+			\begin{itemize}
+				\scriptsize
+				\item SQL
+				\item \ldots
+				\small
+			\end{itemize}
+		\item From the web 
+			\begin{itemize}
+				\scriptsize
+				\item xml
+				\item json
+				\item \ldots
+				\small
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large \texttt{R} can import several types of data
+	\begin{itemize}
+		\small
+		\item \textbf{From disk}
+			\begin{itemize}
+				\scriptsize
+				\item \textbf{csv}
+				\item \textbf{txt}
+				\item \textbf{excel}
+				\item SAS
+				\item \ldots
+				\small
+			\end{itemize}
+		\item From database
+			\begin{itemize}
+				\scriptsize
+				\item SQL
+				\item \ldots
+				\small
+			\end{itemize}
+		\item From the web 
+			\begin{itemize}
+				\scriptsize
+				\item xml
+				\item json
+				\item \ldots
+				\small
+			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large Import txt files
+	\begin{itemize}
+		\small
+		\item Base package
+		\item dplyr
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large Import csv files
+	\begin{itemize}
+		\small
+		\item Base package
+		\item dplyr
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large Import Excel files
+	\begin{itemize}
+		\small
+		\item readxl
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large Using RStudio GUI
+	\begin{itemize}
+		\small
+		\item 
+	\end{itemize}
+\end{frame}
+
+\subsection{Analysis}
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Analysis}
+	\centering \Large
+	\begin{itemize}
+		\small
+		\item Data visualization\\View()
+		\item Loop
+		\item If statement
+		\item log transform
+		\item mean
+		\item p.value
+		\item FC
+		\item differential expression
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large
+	\begin{itemize}
+		\small
+		\item Base
+		\item Lattice
+		\item ggplot2
+		\item boxplot data
+		\item histogram pvalue
+		\item scatterplot -- volcano plot
+	\end{itemize}
+\end{frame}
+
+\subsection{Write data}
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Write data}
+	\centering \Large
+	\begin{itemize}
+		\small
+		\item 
+	\end{itemize}
+\end{frame}
 
 
 

@@ -3,3 +3,4 @@
 \beamer@sectionintoc {2}{Basic concepts in R}{16}{0}{2}
 \beamer@subsectionintoc {2}{1}{Vector}{23}{0}{2}
 \beamer@subsectionintoc {2}{2}{R packages}{63}{0}{2}
+\beamer@sectionintoc {3}{Data structures}{71}{0}{3}

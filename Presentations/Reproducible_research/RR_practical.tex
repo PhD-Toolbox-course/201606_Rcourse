@@ -74,19 +74,91 @@ University of Cambridge \\
     \includegraphics[scale=0.4]{figures/RmarkdownExample1.png}
 \end{frame}
 %----------
+%------------------------
+% Element explanation
+%------------------------
 \begin{frame}
-    \frametitle{Markdown}
+    \frametitle{RMarkdown elements}
     \begin{itemize}
-        \item \underline{R Code Chunks} can be embedded with the native Markdown syntax for fenced code regions
-        \item \underline{R expressions} inline by enclosing the expression within a single back-tick
-        \item \underline{Inline text} \tiny\url{http://rmarkdown.rstudio.com/authoring_basics.html}
+        \item Header
+        \item Text
+	\item Inline \texttt{R} code
+        \item Code chunks
     \end{itemize}
 \end{frame}
+
+%-----------------
+\begin{frame}
+    \frametitle{RMarkdown elements}
+    \centering \Large Header
+    \normalsize
+    	\begin{itemize}
+		\item R Markdown documents can contain a metadata section that includes title, author, and date information 
+		\item As well as options for customizing output
+	\end{itemize}
+	\begin{center}	\includegraphics[scale=0.6]{figures/RMarkdown_hearder.png} \end{center}
+    
+\end{frame}
+
+\begin{frame}
+    \frametitle{RMarkdown elements}
+    \centering \Large Text
+    \normalsize
+    	\begin{itemize}
+		\item Text can be added to comment you code
+		\item Text can be added to comment your outputs
+	\end{itemize}
+	\begin{center}	\includegraphics[scale=0.6]{figures/RMarkdown_text.png} \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{RMarkdown elements}
+	\centering \Large Inline \texttt{R} code
+	\normalsize
+	\begin{itemize}
+		\item \texttt{R} expressions can be evaluated inline 
+		\item Enclosing the expression within a single back-tick qualified with ‘r’.
+	\end{itemize}
+	\begin{center}	\includegraphics[scale=0.4]{figures/RMarkdown_inline.png} \end{center}
+\end{frame}
+
 %-----------
 \begin{frame}
-    \frametitle{Markdown}
+    \frametitle{RMarkdown elements}
+	    \centering \Large \texttt{R} chunck
+	\begin{itemize}
+		\normalsize
+		\item \texttt{R} Code Chunks can be embedded with the native Markdown syntax for fenced code regions
+	\end{itemize}
     \begin{center}\includegraphics[scale=0.35]{figures/RmarkdownExample2.png}\end{center}
 \end{frame}
+
+
+\begin{frame}
+    \frametitle{RMarkdown elements}
+	    \centering \Large \texttt{R} chunck options \tiny[few of them]
+
+	    \normalsize There are six types of output:
+	\begin{itemize}
+		\normalsize
+		\item \textbf{source code}: use chunk option \underline{'echo'}, e.g. echo=FALSE hides the R code
+	\pause
+		\item \textbf{normal text output}: use option results (\underline{'markup'} marks up the results; \underline{'asis'} return texts as-is; \underline{'hide'} hides the results)
+	\pause
+		\item \textbf{messages}: option message (\underline{'FALSE'} hides messages in the output)
+	\pause
+		\item \textbf{warnings}: option warning (\underline{'FALSE'} hides warnings in the output)
+	\pause
+		\item \textbf{errors}: option error (\underline{'FALSE'} will make R stop if an error occurs; \underline{'TRUE'} will show the error messages in the output)
+	\pause
+\item \textbf{plots}: option \underline{'fig.keep'} (\underline{'none'} discards all plots; \underline{'all'} for all plots including low-level plots; \underline{'high'} for high-level plots)
+	\end{itemize}
+\end{frame}
+
+
+
+
+
 %-----------
 % Exercise 1 
 %-----------
@@ -107,55 +179,46 @@ University of Cambridge \\
     \begin{center}\includegraphics[scale=0.23]{figures/RmarkdownExample.png}\end{center}
 \end{frame}
 %-----------------------
+\begin{frame}
+    \frametitle{Exercise 1}
+    {\sc GOAL: create a default minimal document}
+    \begin{itemize}
+        \item Open RStudio
+        \item Select File $>$ New file $>$ R Markdown
+        \item Create an HTML document
+	\item Suppress the printing of the \texttt{R} code
+		\pause
+	\item Suppress the printing of the \texttt{R} results
+		\pause
+	\item Suppress the printing of the plot
+    \end{itemize}
+\end{frame}
+%-----------------------
 
 %-------------
 % Exercise 2
 %-------------
 \begin{frame}
     \frametitle{Exercise 2}
-    {\sc GOAL: create a default minimal document}
+    {\sc GOAL: create a default minimal document in other formats}
     \begin{itemize}
         \item Create a pdf document
         \item Create a docx document
     \end{itemize}
 \end{frame}
 
-\end{document}
-
-%------------------------
-% Element explanation
-%------------------------
+%-------------
+% Exercise 3
+%-------------
 \begin{frame}
-    \frametitle{RMarkdown elements}
+    \frametitle{Exercise 3}
+    {\sc GOAL: create a RMarkdown document}
     \begin{itemize}
-        \item Header
-        \item Text
-        \item Code chunks
+        \item Using the dataset4.csv
+        \item Create a document containing analysis, plots and comments
     \end{itemize}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Header}
-    -- Elements of the Header --
-    -- Images --
-    -- TOC --
-\end{frame}
 
-\begin{frame}
-    \frametitle{Text}
-    -- text styles --
-    -- inline r code --
-\end{frame}
-
-\begin{frame}
-    \frametitle{Code chunk}
-    -- r options --
-\end{frame}
-
-
-
-
-
-
-
+\end{document}
 

@@ -1821,7 +1821,7 @@ data(cars)
 	\pause
 		\item Plot the boxplot of mpg column
 	\pause
-		\item Plot the boxplot of mpg column in function of the number of cylinder; boxplot(formula = mpg \textasciitilde* cyl, data = mtcars)
+		\item Plot the boxplot of mpg column in function of the number of cylinder; boxplot(formula = mpg \textasciitilde cyl, data = mtcars)
 	\pause
 		\item The plot shows that mpg is much lower for cars with more cylinders
 		\item We can use the same set of arguments that we explored with plot() above to add axis labels, titles and so on
@@ -1887,22 +1887,21 @@ data(cars)
 %%%%%%% 
 \begin{frame}[fragile]
 	\frametitle{Final exercize}
-	Exercize
-
+	This practical is \textbf{difficult}. You have to use functions that I did not mention before. Use the \texttt{R} help and internet resources to complete the task.
 	\begin{itemize}
-		\item Read in file (raw data)
+		\item Read in file (dataset4.csv)
 		\item Do some operation
 			\begin{itemize}
 				\item Transform the data in log2 scale
-				\item Add columns containing the mean for 'control' and 'treated' condition 
-				\item Add columns containing the standard deviation for 'control' and 'treated' condition 
-				\item Filter out the column with a standard deviation higher than the 95th percentile in both conditions
+				\item Add columns containing the mean for 'control' and 'treated' condition \tiny[hint: rowMeans \& cbind functions] \small
+				\item Add columns containing the standard deviation for 'control' and 'treated' condition \tiny[hint: apply function] \small
+				\item Filter out the rows with a standard deviation higher than 0.25
 			\end{itemize}
 		\item Plot and save
 			\begin{itemize}
-				\item Boxplot
-				\item Histogram
-				\item Scatterplot
+				\item All plot we saw
+				\item heatmap
+				\item hclust
 			\end{itemize}
 		\item Write out the final table
 	\end{itemize}
@@ -1915,9 +1914,13 @@ data(cars)
 \begin{frame}[fragile]
 	\frametitle{Useful resources}
 	\begin{itemize}
-		\item https://github.com/lgatto/TeachingMaterial
+		\item \url{https://github.com/lgatto/TeachingMaterial}
 		\item swirl package
 		\item www.coursera.org
+		\item Official documentation on: \url{http://cran.r-project.org/manuals.html}
+		\item A good repository of R recipes: \url{http://www.statmethods.net/}
+		\item R forums (stackoverflow \& official): \url{http://stackoverflow.com/questions/tagged/r}
+		\item Textbooks: \url{http://www.r-project.org/doc/bib/R-books.html}
 		\item \ldots
 	\end{itemize}
 \end{frame}

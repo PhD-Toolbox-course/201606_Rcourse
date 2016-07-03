@@ -223,8 +223,12 @@ University of Cambridge \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
 \section{Basic concepts in R}
-
+\vspace{30pt}
+\scriptsize
+\begin{flushright}  Based on \url{https://github.com/lgatto/TeachingMaterial/tree/master/\_basicr} \end{flushright}
+\end{frame}
 %%%%%%% 
 \begin{frame}[fragile]{prova}
 	\frametitle{Numbers}
@@ -339,7 +343,6 @@ c(1,2,3,50)
 @
 \rule{\textwidth}{0.4pt}
 \vspace{20pt}
-That gave us every integer between (and including) 1 and 10.
 \end{frame}
 
 %%%%%%% 
@@ -394,7 +397,7 @@ seq(1,10)
 %%%%%%% 
 \begin{frame}[fragile]
 	\frametitle{Vector}
-	This gives us the same output as 1:20. However, let's say that instead we want a vector of numbers ranging from 0 to 4, incremented by 0.5. seq(0, 4,by=0.5) does just that.\\
+	This gives us the same output as 1:10. However, let's say that instead we want a vector of numbers ranging from 0 to 4, incremented by 0.5. seq(0, 4,by=0.5) does just that.\\
 	\centering Try it out.\\
 	\pause
 	\rule{\textwidth}{0.4pt}
@@ -769,7 +772,7 @@ coding.pc
 	\frametitle{R packages}
 	\begin{itemize}
 	\small
-		\item \texttt{R} comes ready loaded with various libraries of functions called \textbf{packages}. e.g. the function \textbf{sum()} is in the base package and sd(), which calculates the standard deviation of a vector, is in the stats package
+\item \texttt{R} comes ready loaded with various libraries of functions called \textbf{packages}. e.g. the function \textbf{sum()} is in the base package and \textbf{sd()}, which calculates the standard deviation of a vector, is in the stats package
 	\pause
 		\item There are 1000s of additional packages provided by third parties, and the packages can be found in numerous server locations on the web called repositories
 	\pause
@@ -813,7 +816,7 @@ coding.pc
 	\frametitle{R package}
 	\begin{itemize}
 	\small
-		\item R needs to be told to use the new functions from the installed packages 
+		\item \texttt{R} needs to be told to use the new functions from the installed packages 
 		\item Use \textbf{library(\ldots)} function to load the newly installed features
 		\item \textbf{library(``Matrix'')};  loads matrix functions
 	\end{itemize}
@@ -844,8 +847,8 @@ coding.pc
 			\tiny [Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23] 
 
 		\small
-		\item For example, we might want to analyse information about a set of patients. To start with, let's say we have ten patients and for each one we know their name, sex, age, weight and whether they give consent for their data to be made public
-		\item We are going to create a data frame called ``patients'', which will have \underline{ten rows (observations)} and \underline{seven columns (variables)}. 
+		\item For example, we might want to analyse information about a set of patients. To start with, let's say we have ten patients and for each one we know their \textbf{name, sex, age, weight and whether they give consent} for their data to be made public
+		\item We are going to create a data frame called 'patients', which will have \underline{ten rows (observations)} and \underline{seven columns (variables)}. 
 		\item \textbf{The columns must all be equal lengths}
 
 	\end{itemize}
@@ -855,7 +858,7 @@ coding.pc
 \begin{frame}[fragile]
 	\frametitle{Data frame}
 	\centering \LARGE The patients data frame
-
+	\vspace{20pt}
 <<echo=F>>=
 age<-c(50, 21, 35, 45, 28, 31, 42, 33, 57, 62)
 weight<-c(70.8, 67.9, 75.3, 61.9, 72.4, 69.9, 63.5, 71.5, 73.2, 64.8)
@@ -1488,17 +1491,129 @@ df[which.min(df2),]
 		\small
 		\item Base package
 		\item dplyr
+	\vspace{20pt}
+		\item Set working directory
+\vspace{10pt}
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+a <- getwd()
+a
+setwd('~/Documents/Courses/201606_Rcourse/resources/')
+getwd()
+setwd(a)
+@
 	\end{itemize}
 \end{frame}
 
 %%%%%%% 
 \begin{frame}[fragile]
 	\frametitle{Reading in data}
-	\centering \Large Import csv files
+	\centering \Large Import txt files
+	\begin{itemize}
+		\small
+		\item Base package
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+x <- read.table('~/Documents/Courses/201606_Rcourse/resources/dataset1.txt',header = T, sep = '\t')
+colnames(x)
+x
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+		
+		\item dplyr
+
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large Import txt files
+	\begin{itemize}
+		\small
+		\item Base package
+			\begin{itemize}
+				\item Table difficoult to watch (expecially if very large) 
+				\item 'head' command can help
+				\item 'View' command to inspect the table in the viewer
+			\end{itemize}
+		\item dplyr
+
+	\end{itemize}
+\end{frame}
+
+
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large Import txt files
 	\begin{itemize}
 		\small
 		\item Base package
 		\item dplyr
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+library(readr)
+x2 <- read_delim(file = '~/Documents/Courses/201606_Rcourse/resources/dataset1.txt', delim = '\t')
+x2
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+	
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large Import txt files
+	\begin{itemize}
+		\small
+		\item dplyr
+			\begin{itemize}
+				\item Try 'class(x2)'
+				\item The object 'x2' has different classes
+				\item On the top of the output you can see the data.frame dimentions
+				\item If there is not space for all the columns to be displayed, they are reported anyway
+			\end{itemize}
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+library(readr)
+class(x2)
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+	
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Reading in data}
+	\centering \Large Import csv files
+
+	\centering \normalsize Give a try!!
+	\begin{itemize}
+		\small
+		\item Locate the file 'dataset2.csv'
+		\item Read the csv file in using the Base package [read.csv]
+		\item Read the csv file in using the readr package [read\_csv]
 	\end{itemize}
 \end{frame}
 
@@ -1506,9 +1621,14 @@ df[which.min(df2),]
 \begin{frame}[fragile]
 	\frametitle{Reading in data}
 	\centering \Large Import Excel files
+
+	\centering \normalsize Give a try!!
 	\begin{itemize}
 		\small
-		\item readxl
+		\item Install the package readxl
+		\item Load the package
+		\item Locate the file dataset3.xlsx
+		\item Read in the dataset3
 	\end{itemize}
 \end{frame}
 
@@ -1516,44 +1636,230 @@ df[which.min(df2),]
 \begin{frame}[fragile]
 	\frametitle{Reading in data}
 	\centering \Large Using RStudio GUI
-	\begin{itemize}
-		\small
-		\item 
-	\end{itemize}
+	\vspace{40pt}
+
+	\begin{center}	\Huge DEMO \end{center}
 \end{frame}
 
 \subsection{Analysis}
 %%%%%%% 
 \begin{frame}[fragile]
 	\frametitle{Analysis}
-	\centering \Large
+	\centering \Large Steps of data analysis
 	\begin{itemize}
 		\small
-		\item Data visualization\\View()
-		\item Loop
-		\item If statement
-		\item log transform
-		\item mean
-		\item p.value
-		\item FC
-		\item differential expression
+		\item Data visualization
+		\item Data Mining
+		\item Reporting Results
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Analysis}
+	\centering \Large Steps of data analysis
+	\begin{itemize}
+		\small
+		\item \textbf{Data visualization}
+		\item Data Mining [Enrico in the afternoon]
+		\item Reporting Results
+	\end{itemize}
+\end{frame}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+
+	\centering \footnotesize This part is based on 'Base Graphics' lesson in swirl package
+	\begin{itemize}
+		\small
+		\item Base
+		\item Lattice
+		\item ggplot2
 	\end{itemize}
 \end{frame}
 
 %%%%%%% 
 \begin{frame}[fragile]
 	\frametitle{Plot}
-	\centering \Large
+	\centering \Large Data visualization
+	
+	\centering \footnotesize This part is based on 'Base Graphics' lesson in swirl package
 	\begin{itemize}
 		\small
-		\item Base
+		\item \textbf{Base}
 		\item Lattice
 		\item ggplot2
-		\item boxplot data
-		\item histogram pvalue
-		\item scatterplot -- volcano plot
 	\end{itemize}
 \end{frame}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+	\begin{itemize}
+		\small
+		\item One of the greatest strengths of R is the ability to create publication-quality graphics
+		\item We cover a basic portions of graphics in R
+		\item We will use the 'cars' data set
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+data(cars)
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+		\item We will work with this simple data frames
+		\item Our main goal is to introduce various plotting functions and their arguments
+		\item Pull up the help page for cars
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+	\begin{itemize}
+		\small
+		\item Before plotting, it is always a good idea to get a sense of the data 
+		\item The key \texttt{R} commands for doing so include, dim(), names(), head(), tail() and summary()
+	\end{itemize}
+
+	\begin{center} \normalsize Try them! \end{center}
+\end{frame}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+	\begin{itemize}
+		\small
+		\item Run the \textbf{plot()} command on the cars data frame \tiny ['plot' is short for scatterplot] \small
+		\vspace{10pt}
+		\pause
+		\item \texttt{R} notes that the data frame you have given it has just two columns, so it assumes that you want to plot one column versus the other
+		\item \texttt{R} uses the names of the columns as labels for either axis
+		\vspace{10pt}
+		\pause
+		\item What will it happen if the dataset contains more than 2 columns?
+	\end{itemize}
+	
+	\vspace{20pt}
+	\begin{center} Give a try! \end{center}
+
+\end{frame}
+
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+	\begin{itemize}
+		\small
+		\item Use plot() command to show dist on the x-axis and speed on the y-axis
+	\pause
+		\item R is not sure what you want to use as the labels on the axes, so dollar signs are used
+		\item The plot function can be customize; try plot(x = cars\$speed, y = cars\$dist, xlab = 'Speed') 
+	\end{itemize}
+	
+	\vspace{20pt}
+	\begin{center} Give a try! \end{center}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+	\begin{itemize}
+		\small
+		\item Recreate the plot with the label of the y-axis set to 'Stopping Distance' 
+	\pause
+		\item Plot cars with a main title of 'My Plot'; Note that the argument for the main title is 'main' not 'title'
+	\pause
+		\item Plot cars with a sub title of 'My Plot Subtitle'; the argument is 'sub'
+	\pause
+		\item The plot help page (?plot) only covers a small number of the many arguments that can be passed in to plot() [look at ?par for other arguments]
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+	\begin{itemize}
+		\small
+		\item Plot cars so that the plotted points are colored red; use col = 'red'
+	\pause 
+		\item Plot cars while limiting the x-axis to 10 through 15; use xlim = c(10, 15)
+	\pause
+		\item You can also change the shape of the symbols in the plot; use pch = 2 \tiny [?point to see all the possible shapes]
+	\end{itemize}
+
+	\vspace{20pt}
+
+	\begin{center} Let's now look at some other functions in base graphics \end{center}
+\end{frame}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+	\begin{itemize}
+		\small
+		\item Load the mtcars data frame; data(mtcars)
+	\pause 
+		\item Explore the dataset; dim(), head(), summary(), \ldots
+	\pause
+		\item Plot the boxplot of mpg column
+	\pause
+		\item Plot the boxplot of mpg column in function of the number of cylinder; boxplot(formula = mpg \textasciitilde* cyl, data = mtcars)
+	\pause
+		\item The plot shows that mpg is much lower for cars with more cylinders
+		\item We can use the same set of arguments that we explored with plot() above to add axis labels, titles and so on
+		\item Label the x-axis: 'Cylinder'; the y-axis: 'MPG'; title: 'Boxplot of mtcars'
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large Data visualization
+	\begin{itemize}
+		\small
+		\item When looking at a single variable, histograms are a useful tool
+		\item Like plot(), hist() is best used by just passing in a single vector
+		\item Use hist() with the vector mtcars\$mpg to create a histogram
+	\pause
+		\item Create a beautiful histogram using the mtcars dataset 
+	\pause
+		\item How to export a high quality plot?
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Plot}
+	\centering \Large High quality plot
+	\vspace{30pt}
+	\normalsize
+	\begin{flushleft}
+		\textbf{png('\ldots', units = 'mm', width = 180, height = 180, res = 300)}
+
+	plot(x)
+
+	\textbf{dev.off()}
+	\end{flushleft}
+\end{frame}
+
 
 \subsection{Write data}
 %%%%%%% 
@@ -1562,16 +1868,58 @@ df[which.min(df2),]
 	\centering \Large
 	\begin{itemize}
 		\small
-		\item 
+		\item Base package
+			\begin{itemize}
+				\item write.table()
+				\item write.csv()
+			\end{itemize}
+		\item readr package
+			\begin{itemize}
+				\item write\_table()
+				\item write\_csv()
+			\end{itemize}
 	\end{itemize}
+	\vspace{20pt}
+	\pause
+	\begin{center} \Large Have a look of the help page \end{center}
 \end{frame}
 
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Final exercize}
+	Exercize
+
+	\begin{itemize}
+		\item Read in file (raw data)
+		\item Do some operation
+			\begin{itemize}
+				\item Transform the data in log2 scale
+				\item Add columns containing the mean for 'control' and 'treated' condition 
+				\item Add columns containing the standard deviation for 'control' and 'treated' condition 
+				\item Filter out the column with a standard deviation higher than the 95th percentile in both conditions
+			\end{itemize}
+		\item Plot and save
+			\begin{itemize}
+				\item Boxplot
+				\item Histogram
+				\item Scatterplot
+			\end{itemize}
+		\item Write out the final table
+	\end{itemize}
+
+\end{frame}
 
 
 
 %%%%%%% 
 \begin{frame}[fragile]
-	\frametitle{Vector}
+	\frametitle{Useful resources}
+	\begin{itemize}
+		\item https://github.com/lgatto/TeachingMaterial
+		\item swirl package
+		\item www.coursera.org
+		\item \ldots
+	\end{itemize}
 \end{frame}
 
 \end{document}

@@ -4,7 +4,7 @@
 \beamer@subsectionintoc {2}{1}{Vector}{23}{0}{2}
 \beamer@subsectionintoc {2}{2}{R packages}{63}{0}{2}
 \beamer@subsectionintoc {2}{3}{Data structures}{71}{0}{2}
-\beamer@sectionintoc {3}{R for data analysis}{103}{0}{3}
-\beamer@subsectionintoc {3}{1}{Reading in data}{105}{0}{3}
-\beamer@subsectionintoc {3}{2}{Analysis}{115}{0}{3}
-\beamer@subsectionintoc {3}{3}{Write data}{142}{0}{3}
+\beamer@sectionintoc {3}{R for data analysis}{108}{0}{3}
+\beamer@subsectionintoc {3}{1}{Reading in data}{110}{0}{3}
+\beamer@subsectionintoc {3}{2}{Analysis}{120}{0}{3}
+\beamer@subsectionintoc {3}{3}{Write data}{147}{0}{3}

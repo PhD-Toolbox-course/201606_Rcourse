@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  3 JUL 2016 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  5 JUL 2016 08:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -832,70 +832,184 @@ Package: beamerfontthememetropolis 2016/03/14 Metropolis font theme
 Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaL
 aTeX to use the Fira fonts on input line 91.
 
-)) (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/pdfcomment/pdfcomment.sty
+Package: pdfcomment 2012/09/28 pdfcomment.sty v2.3a - Josef Kleber (C) 2008-201
+2
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
+)
+\XKV@depth=\count166
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\c@pc@count@i=\count167
+\c@pc@count@ii=\count168
+\c@pc@count@iii=\count169
+\c@pc@count@iv=\count170
+\pc@mathannot@box=\box58
+\pc@dima=\skip66
+\pc@dimb=\skip67
+\pc@Sposx=\skip68
+\pc@Sposy=\skip69
+\pc@Eposx=\skip70
+\pc@Eposy=\skip71
+\pc@column=\skip72
+\pc@box@width=\skip73
+\pc@box@height=\skip74
+\pc@box@depth=\skip75
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/zref-savepos.sty
+Package: zref-savepos 2012/04/04 v2.24 Module savepos for zref (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+Package zref Info: New property list: savepos on input line 75.
+Package zref Info: New property: posx on input line 76.
+Package zref Info: New property: posy on input line 77.
+)
+\c@zref@unique=\count171
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2012/03/29 v1.1i non floating margin notes for LaTeX
+\c@mn@abspage=\count172
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2015/05/05 v3.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count173
+))
+\c@padzeroesN=\count174
+\fc@tmpcatcode=\count175
+\@DT@modctr=\count176
+\@ordinalctr=\count177
+\@orgargctr=\count178
+\@strctr=\count179
+\@tmpstrctr=\count180
+\@DT@loopN=\count181
+\@DT@X=\count182
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2013/08/17
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count183
+\@month=\count184
+\@year=\count185
+\c@HOUR=\count186
+\c@HOURXII=\count187
+\c@MINUTE=\count188
+\c@TOHOUR=\count189
+\c@TOMINUTE=\count190
+\c@SECOND=\count191
+\currenthour=\count192
+\currentminute=\count193
+\currentsecond=\count194
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count195
+\dayofyear=\count196
+\dayofweek=\count197
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks49
+\dt@b=\toks50
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/bezos/soulpos.sty
+Package: soulpos 2012/02/25 v1.0 Fancy underlining
+\ulp@subcnt=\count198
+\ulp@cnt=\count199
+\ulp@out=\write5
+\ulp@in=\read2
+\ulwidth=\dimen201
+)
+
+Package hyperref Warning: Option `pdftex' has already been used,
+(hyperref)                setting the option has no effect on input line 1348.
+
+Package zref Info: New property list: pdfcomment on input line 2714.
+Package zref Info: New property: PCPDFOBJID on input line 2715.
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen201
-\lightrulewidth=\dimen202
-\cmidrulewidth=\dimen203
-\belowrulesep=\dimen204
-\belowbottomsep=\dimen205
-\aboverulesep=\dimen206
-\abovetopsep=\dimen207
-\cmidrulesep=\dimen208
-\cmidrulekern=\dimen209
-\defaultaddspace=\dimen210
-\@cmidla=\count166
-\@cmidlb=\count167
-\@aboverulesep=\dimen211
-\@belowrulesep=\dimen212
-\@thisruleclass=\count168
-\@lastruleclass=\count169
-\@thisrulewidth=\dimen213
+\heavyrulewidth=\dimen202
+\lightrulewidth=\dimen203
+\cmidrulewidth=\dimen204
+\belowrulesep=\dimen205
+\belowbottomsep=\dimen206
+\aboverulesep=\dimen207
+\abovetopsep=\dimen208
+\cmidrulesep=\dimen209
+\cmidrulekern=\dimen210
+\defaultaddspace=\dimen211
+\@cmidla=\count200
+\@cmidlb=\count201
+\@aboverulesep=\dimen212
+\@belowrulesep=\dimen213
+\@thisruleclass=\count202
+\@lastruleclass=\count203
+\@thisrulewidth=\dimen214
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip66
-\bibsep=\skip67
+\bibhang=\skip76
+\bibsep=\skip77
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count170
+\c@NAT@ctr=\count204
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen214
+\bigstrutjot=\dimen215
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2014/01/03 v1.7j
 
 Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
-\TP@textbox=\box58
-\TP@holdbox=\box59
-\TPHorizModule=\dimen215
-\TPVertModule=\dimen216
-\TP@margin=\dimen217
-\TP@absmargin=\dimen218
+\TP@textbox=\box59
+\TP@holdbox=\box60
+\TPHorizModule=\dimen216
+\TPVertModule=\dimen217
+\TP@margin=\dimen218
+\TP@absmargin=\dimen219
 Grid set 16 x 16 = 22.7622pt x 17.07166pt
-\TPboxrulesize=\dimen219
-\TP@ox=\dimen220
-\TP@oy=\dimen221
-\TP@tbargs=\toks47
-\TP@prevdepth=\dimen222
+\TPboxrulesize=\dimen220
+\TP@ox=\dimen221
+\TP@oy=\dimen222
+\TP@tbargs=\toks51
+\TP@prevdepth=\dimen223
 TextBlockOrigin set to 0pt x 0pt
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/Sweave/tex/latex/Sweave.sty
 Package: Sweave 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count171
-\FV@InFile=\read2
-\FV@TabBox=\box60
-\c@FancyVerbLine=\count172
-\FV@StepNumber=\count173
-\FV@OutFile=\write5
+\FV@CodeLineNo=\count205
+\FV@InFile=\read3
+\FV@TabBox=\box61
+\c@FancyVerbLine=\count206
+\FV@StepNumber=\count207
+\FV@OutFile=\write6
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -1004,28 +1118,28 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 (./Rbasic_Day1.aux)
 \openout1 = `Rbasic_Day1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 56.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Try loading font information for T1+aess on input line 54.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 56.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
@@ -1066,17 +1180,17 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count174
-\scratchdimen=\dimen223
-\scratchbox=\box61
-\nofMPsegments=\count175
-\nofMParguments=\count176
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count177
-\MPscratchDim=\dimen224
-\MPnumerator=\count178
-\makeMPintoPDFobject=\count179
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count208
+\scratchdimen=\dimen224
+\scratchbox=\box62
+\nofMPsegments=\count209
+\nofMParguments=\count210
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count211
+\MPscratchDim=\dimen225
+\MPnumerator=\count212
+\makeMPintoPDFobject=\count213
+\everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1093,8 +1207,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box62
-Package hyperref Info: Link coloring OFF on input line 54.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 56.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1102,58 +1216,58 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count180
+\c@section@level=\count214
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
 
 (./Rbasic_Day1.out) (./Rbasic_Day1.out)
-\@outlinefile=\write6
-\openout6 = `Rbasic_Day1.out'.
+\@outlinefile=\write7
+\openout7 = `Rbasic_Day1.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 56.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/aer/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 54.
+(Font)                  OT1/cmss/m/n --> T1/aer/m/n on input line 56.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 54.
+(Font)                  OT1/cmr/bx/n --> T1/aess/bx/n on input line 56.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/aess/m/n on input line 54.
+(Font)                  OT1/cmss/m/n --> T1/aess/m/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/aess/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 54.
+(Font)                  OT1/cmss/bx/n --> T1/aess/m/n on input line 56.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/aess/m/it on input line 54.
+(Font)                  OT1/cmr/m/it --> T1/aess/m/it on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/aess/m/it on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 54.
+(Font)                  OT1/cmr/bx/it --> T1/aess/m/it on input line 56.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> T1/aett/m/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 54.
+(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 56.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 54.
+(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/aer/bx/n on input line 54.
+(Font)                  OT1/cmss/bx/n --> T1/aer/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/aess/bx/n --> T1/aess/bx/n on input line 54.
+(Font)                  T1/aess/bx/n --> T1/aess/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 54.
+(Font)                  T1/aess/m/n --> T1/aess/bx/n on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 54.
+(Font)                  T1/aess/m/it --> T1/aess/bx/it on input line 56.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/aett/m/n --> T1/aett/bx/n on input line 54.
+(Font)                  T1/aett/m/n --> T1/aett/bx/n on input line 56.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1179,74 +1293,100 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 54.
+LaTeX Info: Redefining \includegraphics on input line 56.
+Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
+(marginnote)             Extended position detection mode activated.
+Package soulpos Info: Loading soulutf8 on input line 56.
 
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/soulutf8.sty
+Package: soulutf8 2007/09/09 v1.0 Permit use of UTF-8 characters in soul (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks54
+\SOUL@lasttoken=\toks55
+\SOUL@cmds=\toks56
+\SOUL@buffer=\toks57
+\SOUL@token=\toks58
+\SOUL@spaceskip=\skip78
+\SOUL@ttwidth=\dimen226
+\SOUL@uldp=\dimen227
+\SOUL@ulht=\dimen228
+))
 (./Rbasic_Day1.nav) (./Rbasic_Day1-concordance.tex)
-\fancyvrbtopsep=\skip68
-\fancyvrbpartopsep=\skip69
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <8> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 69.
-
-Overfull \vbox (44.5352pt too high) detected at line 69
- []
-
-[1
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Rbasic_Day1.toc) [2
-
-] [3
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 94.
+\fancyvrbtopsep=\skip79
+\fancyvrbpartopsep=\skip80
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 94.
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 71.
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 71.
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <5> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 71.
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <8> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 71.
+
+Overfull \vbox (44.5352pt too high) detected at line 71
+ []
+
+[1
+
+\openout5 = `Rbasic_Day1.upa'.
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Rbasic_Day1.toc)
+Package marginnote Info: Margin note 2.1 is on absolute page 2
+(marginnote)              on input line 80.
+Package marginnote Info: right page because not two side mode on input line 80.
+
+Package marginnote Info: xpos seems to be 28.45274pt,
+(marginnote)             \marginnoterightadjust ignored on input line 80.
+ [2
+
+] [3
+
+]
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10.95> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 94.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 97.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <6> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 94.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 97.
  [4
 
 ]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 109.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 112.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-LaTeX Font Info:    Try loading font information for TS1+aess on input line 109
+LaTeX Font Info:    Try loading font information for TS1+aess on input line 112
 .
-LaTeX Font Info:    No file TS1aess.fd. on input line 109.
+LaTeX Font Info:    No file TS1aess.fd. on input line 112.
 
 
 LaTeX Font Warning: Font shape `TS1/aess/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 109.
+(Font)              for symbol `textbullet' on input line 112.
 
 [5
 
-]
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 118.
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 118.
-LaTeX Font Info:    Font shape `T1/aess/m/it' in size <5> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 118.
- <figures/R-project.png, id=104, 1040.88875pt x 749.80125pt>
+] <figures/R-project.png, id=105, 1040.88875pt x 749.80125pt>
 File: figures/R-project.png Graphic file (type png)
 
 <use figures/R-project.png>
-Package pdftex.def Info: figures/R-project.png used on input line 118.
+Package pdftex.def Info: figures/R-project.png used on input line 121.
 (pdftex.def)             Requested size: 260.22154pt x 187.44984pt.
 
-Overfull \vbox (2.03136pt too high) detected at line 118
+Overfull \vbox (2.03136pt too high) detected at line 121
  []
 
 [6
@@ -1259,86 +1399,86 @@ Overfull \vbox (2.03136pt too high) detected at line 118
  (./Rbasic_Day1.vrb) [8
 
 ]
-<figures/Rstudio_overview.png, id=131, 1424.32124pt x 863.225pt>
+<figures/Rstudio_overview.png, id=132, 1424.32124pt x 863.225pt>
 File: figures/Rstudio_overview.png Graphic file (type png)
 
 <use figures/Rstudio_overview.png>
-Package pdftex.def Info: figures/Rstudio_overview.png used on input line 169.
+Package pdftex.def Info: figures/Rstudio_overview.png used on input line 172.
 (pdftex.def)             Requested size: 1994.0362pt x 1208.50679pt.
  [9
 
  <./figures/Rstudio_overview.png>]
-<figures/RStudio_console.png, id=138, 791.95876pt x 408.52625pt>
+<figures/RStudio_console.png, id=139, 791.95876pt x 408.52625pt>
 File: figures/RStudio_console.png Graphic file (type png)
 
 <use figures/RStudio_console.png>
-Package pdftex.def Info: figures/RStudio_console.png used on input line 178.
+Package pdftex.def Info: figures/RStudio_console.png used on input line 181.
 (pdftex.def)             Requested size: 312.9803pt x 161.45026pt.
 
-Overfull \hbox (5.69043pt too wide) in paragraph at lines 178--178
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 181--181
  [][] 
  []
 
 
-Overfull \vbox (1.05736pt too high) detected at line 178
+Overfull \vbox (1.05736pt too high) detected at line 181
  []
 
 [10
 
  <./figures/RStudio_console.png>]
-<figures/RStudio_script.png, id=145, 634.37pt x 403.5075pt>
+<figures/RStudio_script.png, id=146, 634.37pt x 403.5075pt>
 File: figures/RStudio_script.png Graphic file (type png)
 
 <use figures/RStudio_script.png>
-Package pdftex.def Info: figures/RStudio_script.png used on input line 187.
+Package pdftex.def Info: figures/RStudio_script.png used on input line 190.
 (pdftex.def)             Requested size: 284.52756pt x 180.98563pt.
 
-Overfull \vbox (22.71696pt too high) detected at line 187
+Overfull \vbox (22.71696pt too high) detected at line 190
  []
 
 [11
 
  <./figures/RStudio_script.png>]
-<figures/RStudio_environment.png, id=152, 639.38875pt x 420.57124pt>
+<figures/RStudio_environment.png, id=153, 639.38875pt x 420.57124pt>
 File: figures/RStudio_environment.png Graphic file (type png)
 
 <use figures/RStudio_environment.png>
-Package pdftex.def Info: figures/RStudio_environment.png used on input line 196
+Package pdftex.def Info: figures/RStudio_environment.png used on input line 199
 .
 (pdftex.def)             Requested size: 284.52756pt x 187.15681pt.
 
-Overfull \vbox (24.88815pt too high) detected at line 196
+Overfull \vbox (24.88815pt too high) detected at line 199
  []
 
 [12
 
  <./figures/RStudio_environment.png>]
-<figures/RStudio_plot.png, id=159, 787.94376pt x 414.54875pt>
+<figures/RStudio_plot.png, id=160, 787.94376pt x 414.54875pt>
 File: figures/RStudio_plot.png Graphic file (type png)
 
 <use figures/RStudio_plot.png>
-Package pdftex.def Info: figures/RStudio_plot.png used on input line 205.
+Package pdftex.def Info: figures/RStudio_plot.png used on input line 208.
 (pdftex.def)             Requested size: 284.52756pt x 149.69287pt.
  [13
 
  <./figures/RStudio_plot.png>]
-<figures/RStudio_help.png, id=167, 790.955pt x 418.56375pt>
+<figures/RStudio_help.png, id=168, 790.955pt x 418.56375pt>
 File: figures/RStudio_help.png Graphic file (type png)
 
 <use figures/RStudio_help.png>
-Package pdftex.def Info: figures/RStudio_help.png used on input line 214.
+Package pdftex.def Info: figures/RStudio_help.png used on input line 217.
 (pdftex.def)             Requested size: 284.52756pt x 150.56786pt.
  [14
 
  <./figures/RStudio_help.png>]
-<figures/RStudio_option.png, id=174, 477.785pt x 484.81125pt>
+<figures/RStudio_option.png, id=175, 477.785pt x 484.81125pt>
 File: figures/RStudio_option.png Graphic file (type png)
 
 <use figures/RStudio_option.png>
-Package pdftex.def Info: figures/RStudio_option.png used on input line 223.
+Package pdftex.def Info: figures/RStudio_option.png used on input line 226.
 (pdftex.def)             Requested size: 199.16928pt x 202.09541pt.
 
-Overfull \vbox (31.60257pt too high) detected at line 223
+Overfull \vbox (31.60257pt too high) detected at line 226
  []
 
 [15
@@ -1360,7 +1500,7 @@ Overfull \vbox (31.60257pt too high) detected at line 223
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (19.03627pt too high) detected at line 316
+Overfull \vbox (19.03627pt too high) detected at line 319
  []
 
 [19
@@ -1440,13 +1580,13 @@ Overfull \vbox (19.03627pt too high) detected at line 316
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 564
+Overfull \vbox (2.44633pt too high) detected at line 567
  []
 
 [37
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 564
+Overfull \vbox (2.44633pt too high) detected at line 567
  []
 
 [38
@@ -1460,7 +1600,7 @@ Overfull \vbox (2.44633pt too high) detected at line 564
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 613
+Overfull \vbox (2.44633pt too high) detected at line 616
  []
 
 [40
@@ -1507,13 +1647,13 @@ Overfull \vbox (2.44633pt too high) detected at line 613
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (5.51128pt too high) detected at line 759
+Overfull \vbox (5.51128pt too high) detected at line 762
  []
 
 [51
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (5.51128pt too high) detected at line 759
+Overfull \vbox (5.51128pt too high) detected at line 762
  []
 
 [52
@@ -1527,7 +1667,7 @@ Overfull \vbox (5.51128pt too high) detected at line 759
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (12.34636pt too high) detected at line 813
+Overfull \vbox (12.34636pt too high) detected at line 816
  []
 
 [54
@@ -1591,7 +1731,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
  []
 
 )
-Overfull \vbox (11.45107pt too high) detected at line 940
+Overfull \vbox (11.45107pt too high) detected at line 943
  []
 
 [58
@@ -1617,7 +1757,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
  []
 
 )
-Overfull \vbox (11.45107pt too high) detected at line 940
+Overfull \vbox (11.45107pt too high) detected at line 943
  []
 
 [59
@@ -1690,31 +1830,31 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--17
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1036
+Overfull \vbox (1.72621pt too high) detected at line 1039
  []
 
 [64
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1036
+Overfull \vbox (1.72621pt too high) detected at line 1039
  []
 
 [65
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1036
+Overfull \vbox (1.72621pt too high) detected at line 1039
  []
 
 [66
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1036
+Overfull \vbox (1.72621pt too high) detected at line 1039
  []
 
 [67
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1036
+Overfull \vbox (1.72621pt too high) detected at line 1039
  []
 
 [68
@@ -1730,9 +1870,10 @@ Overfull \vbox (1.72621pt too high) detected at line 1036
  (./Rbasic_Day1.vrb) [70
 
 ]
-\openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb)
+LaTeX Font Warning: Font shape `T1/aess/m/sc' undefined
+(Font)              using `T1/aess/m/n' instead on input line 1078.
+
 [71
 
 ]
@@ -1744,6 +1885,16 @@ Overfull \vbox (1.72621pt too high) detected at line 1036
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb) [73
+
+] (./Rbasic_Day1.vrb)
+[74
+
+] (./Rbasic_Day1.vrb) [75
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [76
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1759,39 +1910,103 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 13--13
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 16--20
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--21
 []  
  []
 
-LaTeX Font Info:    Try loading font information for TS1+aett on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+aett on input line 22.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/Sweave/tex/latex/ts1aett.fd
 File: ts1aett.fd 
 )
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 21.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 22.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `TS1/aett/m/sl' in size <8> not available
-(Font)              Font shape `TS1/cmtt/m/sl' tried instead on input line 21.
+(Font)              Font shape `TS1/cmtt/m/sl' tried instead on input line 22.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 27--27
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--28
 []  
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 30--34
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 32--36
 []  
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
 []  
  []
 
-) [74
+) [77
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 4--8
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 13--13
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--21
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--28
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 32--36
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
+[]  
+ []
+
+) [78
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 4--8
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 13--13
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--21
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--28
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 32--36
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
+[]  
+ []
+
+) [79
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1817,10 +2032,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 50--50
  []
 
 )
-Overfull \vbox (18.25107pt too high) detected at line 1225
+Overfull \vbox (18.25107pt too high) detected at line 1236
  []
 
-[75
+[80
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1841,10 +2056,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 27--27
  []
 
 )
-Overfull \vbox (2.01616pt too high) detected at line 1263
+Overfull \vbox (2.01616pt too high) detected at line 1274
  []
 
-[76
+[81
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1869,7 +2084,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--42
 []  
  []
 
-) [77
+) [82
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1896,7 +2111,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
 []  
  []
 
-) [78
+) [83
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1911,7 +2126,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
 []  
  []
 
-) [79
+) [84
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1926,7 +2141,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
 [][]  
  []
 
-) [80
+) [85
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1941,7 +2156,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 44--44
 []  
  []
 
-) [81
+) [86
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1956,7 +2171,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 26--26
 [][]  
  []
 
-) [82
+) [87
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1972,29 +2187,29 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 51--51
  []
 
 )
-Overfull \vbox (2.57608pt too high) detected at line 1584
+Overfull \vbox (2.57608pt too high) detected at line 1595
  []
 
-[83
+[88
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [84
+ (./Rbasic_Day1.vrb) [89
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [85
+ (./Rbasic_Day1.vrb) [90
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (17.31618pt too high) detected at line 1635
+Overfull \vbox (17.31618pt too high) detected at line 1646
  []
 
-[86
+[91
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2009,7 +2224,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 35--35
 [][]  
  []
 
-) [87
+) [92
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2035,10 +2250,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1761
+Overfull \vbox (30.3509pt too high) detected at line 1772
  []
 
-[88
+[93
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
@@ -2061,10 +2276,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1761
+Overfull \vbox (30.3509pt too high) detected at line 1772
  []
 
-[89
+[94
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
@@ -2087,10 +2302,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1761
+Overfull \vbox (30.3509pt too high) detected at line 1772
  []
 
-[90
+[95
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
@@ -2113,10 +2328,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1761
+Overfull \vbox (30.3509pt too high) detected at line 1772
  []
 
-[91
+[96
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
@@ -2139,175 +2354,15 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1761
+Overfull \vbox (30.3509pt too high) detected at line 1772
  []
 
-[92
+[97
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [93
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [94
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [95
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [96
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [97
-
-] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
 []  
  []
@@ -2339,6 +2394,166 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
 
 ) [98
 
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [99
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [100
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [101
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [102
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [103
+
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
@@ -2362,7 +2577,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
 []  
  []
 
-) [99
+) [104
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
@@ -2384,7 +2599,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
 []  
  []
 
-) [100
+) [105
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
@@ -2406,7 +2621,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
 []  
  []
 
-) [101
+) [106
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
@@ -2428,30 +2643,30 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
 []  
  []
 
-) [102
+) [107
 
-] [103
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [104
+] [108
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [105
+ (./Rbasic_Day1.vrb) [109
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [110
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
 
-(./Rbasic_Day1.vrb) [106
+(./Rbasic_Day1.vrb) [111
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [107
+ (./Rbasic_Day1.vrb) [112
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2467,15 +2682,15 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 528--528
  []
 
 )
-Overfull \vbox (3945.17018pt too high) detected at line 2563
+Overfull \vbox (3945.17018pt too high) detected at line 2574
  []
 
-[108
+[113
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [109
+ (./Rbasic_Day1.vrb) [114
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2486,15 +2701,15 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 6--7
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 520--520
 []  
  []
 
 )
-Overfull \vbox (26.90105pt too high) detected at line 2628
+Overfull \vbox (3906.98045pt too high) detected at line 3121
  []
 
-[110
+[115
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2509,43 +2724,43 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 25--25
 []  
  []
 
-) [111
+) [116
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [112
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [113
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [114
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [115
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [116
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb)
-[117
+ (./Rbasic_Day1.vrb) [117
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb) [118
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [119
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [120
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [121
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb)
+[122
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [123
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2560,29 +2775,12 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--17
 []  
  []
 
-) [119
+) [124
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [120
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [121
-
-] (./Rbasic_Day1.vrb) [122
-
-] (./Rbasic_Day1.vrb) [123
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [124
-
-] (./Rbasic_Day1.vrb)
-[125
+ (./Rbasic_Day1.vrb) [125
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2591,103 +2789,120 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--17
 
 ] (./Rbasic_Day1.vrb) [127
 
-] (./Rbasic_Day1.vrb)
-[128
-
-] (./Rbasic_Day1.vrb) [129
+] (./Rbasic_Day1.vrb) [128
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [130
+ (./Rbasic_Day1.vrb) [129
 
 ] (./Rbasic_Day1.vrb)
-[131
+[130
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [131
 
 ] (./Rbasic_Day1.vrb) [132
 
+] (./Rbasic_Day1.vrb)
+[133
+
+] (./Rbasic_Day1.vrb) [134
+
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [133
+ (./Rbasic_Day1.vrb) [135
 
 ] (./Rbasic_Day1.vrb)
-[134
+[136
 
-] (./Rbasic_Day1.vrb) [135
-
-] (./Rbasic_Day1.vrb) [136
-
-] (./Rbasic_Day1.vrb)
-[137
+] (./Rbasic_Day1.vrb) [137
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb) [138
 
-] (./Rbasic_Day1.vrb) [139
+] (./Rbasic_Day1.vrb)
+[139
+
+] (./Rbasic_Day1.vrb) [140
+
+] (./Rbasic_Day1.vrb) [141
 
 ] (./Rbasic_Day1.vrb)
-[140
+[142
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [141
+ (./Rbasic_Day1.vrb) [143
+
+] (./Rbasic_Day1.vrb) [144
+
+] (./Rbasic_Day1.vrb)
+[145
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [142
+ (./Rbasic_Day1.vrb) [146
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [147
 
 ] (./Rbasic_Day1.vrb)
-[143
+[148
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (23.70113pt too high) detected at line 2970
+Overfull \vbox (23.70113pt too high) detected at line 3462
  []
 
-[144
+[149
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [145
+ (./Rbasic_Day1.vrb) [150
 
 ]
-\tf@nav=\write7
-\openout7 = `Rbasic_Day1.nav'.
+\tf@nav=\write8
+\openout8 = `Rbasic_Day1.nav'.
 
-\tf@toc=\write8
-\openout8 = `Rbasic_Day1.toc'.
+\tf@toc=\write9
+\openout9 = `Rbasic_Day1.toc'.
 
-\tf@snm=\write9
-\openout9 = `Rbasic_Day1.snm'.
+\tf@snm=\write10
+\openout10 = `Rbasic_Day1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2989.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2989.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3481.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3481.
  (./Rbasic_Day1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2989.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2989.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3481.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3481.
 
 Package rerunfilecheck Info: File `Rbasic_Day1.out' has not changed.
-(rerunfilecheck)             Checksum: 3CC6580011FF1DF44532846495B97F6E;522.
+(rerunfilecheck)             Checksum: 7FF3ECD018A6C985611E2B771E0F6090;522.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2989.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3481.
  ) 
 Here is how much of TeX's memory you used:
- 22785 strings out of 493089
- 440762 string characters out of 6134843
- 877998 words of memory out of 5000000
- 25088 multiletter control sequences out of 15000+600000
- 73036 words of font info for 158 fonts, out of 8000000 for 9000
+ 25311 strings out of 493089
+ 491430 string characters out of 6134843
+ 940879 words of memory out of 5000000
+ 27535 multiletter control sequences out of 15000+600000
+ 74319 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,103p,1713b,723s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -2711,10 +2926,10 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sfst0800.pfb>
-Output written on Rbasic_Day1.pdf (145 pages, 770226 bytes).
+Output written on Rbasic_Day1.pdf (150 pages, 790931 bytes).
 PDF statistics:
- 1000 PDF objects out of 1000 (max. 8388607)
- 801 compressed objects within 9 object streams
- 300 named destinations out of 1000 (max. 500000)
+ 1028 PDF objects out of 1200 (max. 8388607)
+ 824 compressed objects within 9 object streams
+ 310 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

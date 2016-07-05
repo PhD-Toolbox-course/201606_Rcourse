@@ -11,6 +11,8 @@
 }
 
 %Packages
+\usepackage{pdfcomment}
+\newcommand{\pdfnote}[1]{\marginnote{\pdfcomment[icon=note]{#1}}}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 %\usepackage{cite}
@@ -73,6 +75,7 @@ University of Cambridge \\
 \begin{frame}{Overview}
 	\small
 	\tableofcontents
+	\pdfnote{remember to say hello}
 \end{frame}
 
 %----------------------------------------------------------------------------------------
@@ -798,11 +801,11 @@ coding.pc
 	\centering \Huge Exercise
 	\begin{itemize}
 	\small
-		\item Matrix is a CRAN extras packageUse
+		\item Matrix is a CRAN extras package
 			\begin{itemize}
 				\item Use \textbf{install.packages()} function\ldots
 			%	\item install.packages(``Matrix'')
-				\item or in RStudio goto Tools > Install Packages\ldots and type the package name
+				\item or in RStudio go to Tools > Install Packages\ldots and type the package name
 			\end{itemize}
 		\item aCGH is a BioConductor package (www.bioconductor.org)
 		%	\begin{itemize}
@@ -820,11 +823,16 @@ coding.pc
 		\item Use \textbf{library(\ldots)} function to load the newly installed features
 		\item \textbf{library(``Matrix'')};  loads matrix functions
 	\end{itemize}
-	\footnotesize PS: Library(): Lists all the packages you've got installed locally
+	\footnotesize PS: installed.packages(): Lists all the packages you've got installed locally\\
+	PS2: .libPaths(): to know where the libraries are installed
 \end{frame}
 
 
 \subsection{Data structures}
+%%%%%%
+\begin{frame}
+	\centering \Large {\sc DATA STRUCTURES}
+\end{frame}
 
 
 %%%%%%% 
@@ -845,9 +853,10 @@ coding.pc
 		\small
 		\item A data frame is a \textbf{set of observations} of a set of variables  in other words, the \underline{outcome of an experiment}.\\ 
 			\tiny [Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23] 
-
+\pause
 		\small
-		\item For example, we might want to analyse information about a set of patients. To start with, let's say we have ten patients and for each one we know their \textbf{name, sex, age, weight and whether they give consent} for their data to be made public
+	\item For example, we might want to analyse information about a \underline{set of patients}. To start with, let's say we have ten patients and for each one we know their \textbf{name, sex, age, weight and whether they give consent} for their data to be made public
+\pause
 		\item We are going to create a data frame called 'patients', which will have \underline{ten rows (observations)} and \underline{seven columns (variables)}. 
 		\item \textbf{The columns must all be equal lengths}
 
@@ -893,6 +902,7 @@ weight<-c(70.8, 67.9, 75.3, 61.9, 72.4, 69.9, 63.5, 71.5, 73.2, 64.8)
 \rule{\textwidth}{0.4pt}\\
 \small
 \vspace{10pt}
+\pause
 		\item We can define the names using character vectors:
 \rule{\textwidth}{0.4pt}
 \scriptsize
@@ -905,6 +915,7 @@ secondName<-c('Jones', 'Parker', 'Evans', 'Davis', 'Baker',
 \rule{\textwidth}{0.4pt}\\
 \small
 \vspace{10pt}
+\pause
 		\item We also have a new type of vector, the logical vector, which only contains the values TRUE and FALSE:
 \rule{\textwidth}{0.4pt}
 \scriptsize
@@ -921,7 +932,7 @@ consent<-c(TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE)
 	\begin{itemize}
 		\small
 		\item \textbf{Vectors can only contain one type of data}; we cannot mix numbers, characters and logical values in the same vector 
-		\item If we try this, R will convert everything to characters:
+		\item If we try this, \texttt{R} will convert everything to characters:
 \rule{\textwidth}{0.4pt}
 \scriptsize
 <<>>=

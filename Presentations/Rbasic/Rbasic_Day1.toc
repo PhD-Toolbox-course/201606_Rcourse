@@ -6,5 +6,5 @@
 \beamer@subsectionintoc {2}{3}{Data structures}{71}{0}{2}
 \beamer@sectionintoc {3}{R for data analysis}{123}{0}{3}
 \beamer@subsectionintoc {3}{1}{Reading in data}{125}{0}{3}
-\beamer@subsectionintoc {3}{2}{Analysis}{136}{0}{3}
-\beamer@subsectionintoc {3}{3}{Write data}{163}{0}{3}
+\beamer@subsectionintoc {3}{2}{Analysis}{151}{0}{3}
+\beamer@subsectionintoc {3}{3}{Write data}{178}{0}{3}

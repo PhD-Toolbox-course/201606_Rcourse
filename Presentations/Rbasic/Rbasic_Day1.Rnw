@@ -1740,6 +1740,244 @@ x2
 
 	\begin{center}	\Huge DEMO \end{center}
 \end{frame}
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\begin{itemize}
+	\small
+		\item Install 'dplyr'
+		\pause
+	\item \textbf{dplyr::tbl\_df(iris)}:Converts data to tbl class. tbl's are easier to examine than data frames
+	\item R displays only the data that fits onscreen
+		\vspace{5pt}
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+library(dplyr)
+tbl_df(iris)
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+
+	\end{itemize}
+
+\end{frame}
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr\\
+	\vspace{10pt}
+	\includegraphics{figures/dp1.png}
+
+	\begin{itemize}
+	\small
+		\pause
+		\item Install 'dplyr'
+		\item Install 'tidyr'
+	\item \textbf{dplyr::tbl\_df(iris)}:Converts data to tbl class. tbl's are easier to examine than data frames
+
+
+\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\begin{itemize}
+	\small
+
+	\item R displays only the data that fits onscreen
+		\vspace{5pt}
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+library(dplyr)
+tbl_df(iris)
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+	\end{itemize}
+\end{frame}
+
+%%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\vspace{5pt}
+	\includegraphics{figures/dp2.png}
+
+\end{frame}
+
+%%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\vspace{10pt}
+	\includegraphics[width=7cm]{figures/dp3.png}
+
+\end{frame}
+
+%%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\vspace{10pt}
+	\includegraphics[width=6cm]{figures/dp4.png}
+
+\end{frame}
+
+%%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\vspace{10pt}
+	\includegraphics{figures/dp5.png}
+
+\end{frame}
+
+%%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\vspace{5pt}
+	\includegraphics{figures/dp6.png}
+
+\end{frame}
+
+%%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\vspace{15pt}
+	\includegraphics{figures/dp7.png}
+
+\end{frame}
+
+%%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
+	\centering \Large Data Wrangling with dplyr and tidyr
+	\vspace{10pt}
+	\includegraphics[width=6cm]{figures/dp8.png}
+
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \LARGE Exercise
+	\begin{itemize}
+		\small
+		\item Which is the maximum female weight? 
+		\item Which is the minimum male weight? 
+		\item How many are the male over 180cm? 
+		\item Which is their average age?
+		\item Who is the younger and lighter female? 
+		\item Who is the person with the minimum BMI
+	\end{itemize}
+	\small
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \LARGE Exercise
+	\begin{itemize}
+		\small
+		\item Which is the maximum female weight? 
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+df %>% group_by(sex) %>% filter(sex == "female") %>% top_n(1, weight)
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+		\item Which is the minimum male weight? 
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+df %>% group_by(sex) %>% filter(sex == "male") %>% filter(weight == min(weight))
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+\end{itemize}
+\end{frame}
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \LARGE Exercise
+	\begin{itemize}
+		\small
+	\item How many are the male over 180cm? 
+		\item Which is their average age?
+\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+df %>% group_by(sex) %>% filter(sex == "male") %>% filter(height > 180) %>% summarise(mean(age))
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+		\item Who is the younger and lighter female? 
+		\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+df %>% group_by(sex) %>% filter(sex == "female") %>% filter(age == min(age)) %>% filter(weight == min(weight))
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+
+	\end{itemize}
+	\small
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data Wrangling}
+	\centering \LARGE Exercise
+	\begin{itemize}
+		\small
+
+		\item Who is the person with the minimum BMI
+		\rule{\textwidth}{0.4pt}\\
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+df %>% mutate(BMI = weight/height^2) %>% filter(BMI == min(BMI))
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+	\end{itemize}
+	\small
+\end{frame}
+
+
 
 \subsection{Analysis}
 %%%%%%% 
@@ -1803,7 +2041,7 @@ x2
 	\centering \Large Data visualization
 	\begin{itemize}
 		\small
-		\item One of the greatest strengths of R is the ability to create publication-quality graphics
+	\item One of the greatest strengths of R is the ability to create \textbf{publication-quality graphics}
 		\item We cover a basic portions of graphics in R
 		\item We will use the 'cars' data set
 \rule{\textwidth}{0.4pt}\\
@@ -1816,7 +2054,7 @@ data(cars)
 \rule{\textwidth}{0.4pt}\\
 \small
 		\item We will work with this simple data frames
-		\item Our main goal is to introduce various plotting functions and their arguments
+		\item Our \textbf{main goal} is to introduce various plotting functions and their arguments
 		\item Pull up the help page for cars
 	\end{itemize}
 \end{frame}
@@ -1935,7 +2173,7 @@ data(cars)
 	\centering \Large Data visualization
 	\begin{itemize}
 		\small
-		\item When looking at a single variable, histograms are a useful tool
+	\item When looking at a single variable, \textbf{histograms} are a useful tool
 		\item Like plot(), hist() is best used by just passing in a single vector
 		\item Use hist() with the vector mtcars\$mpg to create a histogram
 	\pause

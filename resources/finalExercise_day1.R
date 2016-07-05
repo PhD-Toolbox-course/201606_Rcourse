@@ -11,7 +11,7 @@ x[,2:11] <- log2(x[,2:11])
 xx <- cbind(x, meanC = rowMeans(x[,2:7]), meanT = rowMeans(x[,8:11]), sdC = apply(x[,2:6], 1, sd), sdT = apply(x[,7:11], 1, sd))
 
 # Filter out all the row with sd below 0.25
-xxx <- xx[xx$sdC < 0.25 & xx$sdT < 0.25]
+xxx <- xx[xx$sdC < 0.25 & xx$sdT < 0.25,]
 
 ##############
 #  PLOTS

@@ -1601,7 +1601,7 @@ df[which.min(df2),]
 	\begin{itemize}
 		\small
 		\item Base package
-		\item readr
+		\item dplyr-readr
 	\vspace{20pt}
 		\item Set working directory
 \vspace{10pt}
@@ -1637,7 +1637,7 @@ x
 \rule{\textwidth}{0.4pt}\\
 \small
 		
-		\item readr
+		\item dplyr-readr
 
 	\end{itemize}
 \end{frame}
@@ -1654,7 +1654,7 @@ x
 				\item 'head' command can help
 				\item 'View' command to inspect the table in the viewer
 			\end{itemize}
-		\item readr
+		\item dplyr-readr
 
 	\end{itemize}
 \end{frame}
@@ -1669,7 +1669,7 @@ x
 	\begin{itemize}
 		\small
 		\item Base package
-		\item readr
+		\item dplyr-readr
 \rule{\textwidth}{0.4pt}\\
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
@@ -1695,7 +1695,11 @@ x2
 		\item Compare read.txt and read\_delim
 			\begin{itemize}
 				\item Use the command 'str()'
+				\item Use the command 'class()'
 				\item Which are the differences between the two datasets?
+			\pause
+				\item Load the library dplyr
+				\item Print again the dataset read with readr; what happens?
 			\end{itemize}
 \small
 	
@@ -1740,32 +1744,7 @@ x2
 
 	\begin{center}	\Huge DEMO \end{center}
 \end{frame}
-%%%%%%% 
-\begin{frame}[fragile]
-	\frametitle{Data Wrangling}
-	\centering \tiny \url{https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf}\\
-	\centering \Large Data Wrangling with dplyr and tidyr
-	\begin{itemize}
-	\small
-		\item Install 'dplyr'
-		\pause
-	\item \textbf{dplyr::tbl\_df(iris)}:Converts data to tbl class. tbl's are easier to examine than data frames
-	\item R displays only the data that fits onscreen
-		\vspace{5pt}
-\rule{\textwidth}{0.4pt}\\
-\tiny
-\setlength{\fancyvrbtopsep}{-1pt}
-\setlength{\fancyvrbpartopsep}{-1pt}
-<<>>=
-library(dplyr)
-tbl_df(iris)
-@
-\rule{\textwidth}{0.4pt}\\
-\small
 
-	\end{itemize}
-
-\end{frame}
 %%%%%%% 
 \begin{frame}[fragile]
 	\frametitle{Data Wrangling}
@@ -1906,7 +1885,7 @@ tbl_df(iris)
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
 <<>>=
-df %>% group_by(sex) %>% filter(sex == "female") %>% top_n(1, weight)
+df %>% filter(sex == "female") %>% top_n(1, weight)
 @
 \rule{\textwidth}{0.4pt}\\
 \small
@@ -1916,7 +1895,7 @@ df %>% group_by(sex) %>% filter(sex == "female") %>% top_n(1, weight)
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
 <<>>=
-df %>% group_by(sex) %>% filter(sex == "male") %>% filter(weight == min(weight))
+df %>% filter(sex == "male") %>% filter(weight == min(weight))
 @
 \rule{\textwidth}{0.4pt}\\
 \small
@@ -1937,7 +1916,8 @@ df %>% group_by(sex) %>% filter(sex == "male") %>% filter(weight == min(weight))
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
 <<>>=
-df %>% group_by(sex) %>% filter(sex == "male") %>% filter(height > 180) %>% summarise(mean(age))
+df %>% filter(sex == "male") %>% filter(height > 180) %>% summarise(mean(age))
+df %>% group_by(sex) %>% filter(height > 180) %>% summarise(mean(age))
 @
 \rule{\textwidth}{0.4pt}\\
 \small
@@ -1947,7 +1927,7 @@ df %>% group_by(sex) %>% filter(sex == "male") %>% filter(height > 180) %>% summ
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
 <<>>=
-df %>% group_by(sex) %>% filter(sex == "female") %>% filter(age == min(age)) %>% filter(weight == min(weight))
+df %>% filter(sex == "female") %>% filter(age == min(age)) %>% filter(weight == min(weight))
 @
 \rule{\textwidth}{0.4pt}\\
 \small
@@ -2211,7 +2191,7 @@ data(cars)
 				\item write.table()
 				\item write.csv()
 			\end{itemize}
-		\item readr package
+		\item dplyr-readr package
 			\begin{itemize}
 				\item write\_table()
 				\item write\_csv()

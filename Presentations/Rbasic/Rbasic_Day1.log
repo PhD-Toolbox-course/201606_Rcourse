@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  5 JUL 2016 08:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  5 JUL 2016 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1343,50 +1343,43 @@ Overfull \vbox (44.5352pt too high) detected at line 71
 \openout5 = `Rbasic_Day1.upa'.
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Rbasic_Day1.toc)
-Package marginnote Info: Margin note 2.1 is on absolute page 2
-(marginnote)              on input line 80.
-Package marginnote Info: right page because not two side mode on input line 80.
-
-Package marginnote Info: xpos seems to be 28.45274pt,
-(marginnote)             \marginnoterightadjust ignored on input line 80.
- [2
+(./Rbasic_Day1.toc) [2
 
 ] [3
 
 ]
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10.95> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 97.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <6> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 97.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 96.
  [4
 
 ]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 112.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 111.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-LaTeX Font Info:    Try loading font information for TS1+aess on input line 112
+LaTeX Font Info:    Try loading font information for TS1+aess on input line 111
 .
-LaTeX Font Info:    No file TS1aess.fd. on input line 112.
+LaTeX Font Info:    No file TS1aess.fd. on input line 111.
 
 
 LaTeX Font Warning: Font shape `TS1/aess/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 112.
+(Font)              for symbol `textbullet' on input line 111.
 
 [5
 
-] <figures/R-project.png, id=105, 1040.88875pt x 749.80125pt>
+] <figures/R-project.png, id=104, 1040.88875pt x 749.80125pt>
 File: figures/R-project.png Graphic file (type png)
 
 <use figures/R-project.png>
-Package pdftex.def Info: figures/R-project.png used on input line 121.
+Package pdftex.def Info: figures/R-project.png used on input line 120.
 (pdftex.def)             Requested size: 260.22154pt x 187.44984pt.
 
-Overfull \vbox (2.03136pt too high) detected at line 121
+Overfull \vbox (2.03136pt too high) detected at line 120
  []
 
 [6
@@ -1399,86 +1392,86 @@ Overfull \vbox (2.03136pt too high) detected at line 121
  (./Rbasic_Day1.vrb) [8
 
 ]
-<figures/Rstudio_overview.png, id=132, 1424.32124pt x 863.225pt>
+<figures/Rstudio_overview.png, id=131, 1424.32124pt x 863.225pt>
 File: figures/Rstudio_overview.png Graphic file (type png)
 
 <use figures/Rstudio_overview.png>
-Package pdftex.def Info: figures/Rstudio_overview.png used on input line 172.
+Package pdftex.def Info: figures/Rstudio_overview.png used on input line 171.
 (pdftex.def)             Requested size: 1994.0362pt x 1208.50679pt.
  [9
 
  <./figures/Rstudio_overview.png>]
-<figures/RStudio_console.png, id=139, 791.95876pt x 408.52625pt>
+<figures/RStudio_console.png, id=138, 791.95876pt x 408.52625pt>
 File: figures/RStudio_console.png Graphic file (type png)
 
 <use figures/RStudio_console.png>
-Package pdftex.def Info: figures/RStudio_console.png used on input line 181.
+Package pdftex.def Info: figures/RStudio_console.png used on input line 180.
 (pdftex.def)             Requested size: 312.9803pt x 161.45026pt.
 
-Overfull \hbox (5.69043pt too wide) in paragraph at lines 181--181
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 180--180
  [][] 
  []
 
 
-Overfull \vbox (1.05736pt too high) detected at line 181
+Overfull \vbox (1.05736pt too high) detected at line 180
  []
 
 [10
 
  <./figures/RStudio_console.png>]
-<figures/RStudio_script.png, id=146, 634.37pt x 403.5075pt>
+<figures/RStudio_script.png, id=145, 634.37pt x 403.5075pt>
 File: figures/RStudio_script.png Graphic file (type png)
 
 <use figures/RStudio_script.png>
-Package pdftex.def Info: figures/RStudio_script.png used on input line 190.
+Package pdftex.def Info: figures/RStudio_script.png used on input line 189.
 (pdftex.def)             Requested size: 284.52756pt x 180.98563pt.
 
-Overfull \vbox (22.71696pt too high) detected at line 190
+Overfull \vbox (22.71696pt too high) detected at line 189
  []
 
 [11
 
  <./figures/RStudio_script.png>]
-<figures/RStudio_environment.png, id=153, 639.38875pt x 420.57124pt>
+<figures/RStudio_environment.png, id=152, 639.38875pt x 420.57124pt>
 File: figures/RStudio_environment.png Graphic file (type png)
 
 <use figures/RStudio_environment.png>
-Package pdftex.def Info: figures/RStudio_environment.png used on input line 199
+Package pdftex.def Info: figures/RStudio_environment.png used on input line 198
 .
 (pdftex.def)             Requested size: 284.52756pt x 187.15681pt.
 
-Overfull \vbox (24.88815pt too high) detected at line 199
+Overfull \vbox (24.88815pt too high) detected at line 198
  []
 
 [12
 
  <./figures/RStudio_environment.png>]
-<figures/RStudio_plot.png, id=160, 787.94376pt x 414.54875pt>
+<figures/RStudio_plot.png, id=159, 787.94376pt x 414.54875pt>
 File: figures/RStudio_plot.png Graphic file (type png)
 
 <use figures/RStudio_plot.png>
-Package pdftex.def Info: figures/RStudio_plot.png used on input line 208.
+Package pdftex.def Info: figures/RStudio_plot.png used on input line 207.
 (pdftex.def)             Requested size: 284.52756pt x 149.69287pt.
  [13
 
  <./figures/RStudio_plot.png>]
-<figures/RStudio_help.png, id=168, 790.955pt x 418.56375pt>
+<figures/RStudio_help.png, id=167, 790.955pt x 418.56375pt>
 File: figures/RStudio_help.png Graphic file (type png)
 
 <use figures/RStudio_help.png>
-Package pdftex.def Info: figures/RStudio_help.png used on input line 217.
+Package pdftex.def Info: figures/RStudio_help.png used on input line 216.
 (pdftex.def)             Requested size: 284.52756pt x 150.56786pt.
  [14
 
  <./figures/RStudio_help.png>]
-<figures/RStudio_option.png, id=175, 477.785pt x 484.81125pt>
+<figures/RStudio_option.png, id=174, 477.785pt x 484.81125pt>
 File: figures/RStudio_option.png Graphic file (type png)
 
 <use figures/RStudio_option.png>
-Package pdftex.def Info: figures/RStudio_option.png used on input line 226.
+Package pdftex.def Info: figures/RStudio_option.png used on input line 225.
 (pdftex.def)             Requested size: 199.16928pt x 202.09541pt.
 
-Overfull \vbox (31.60257pt too high) detected at line 226
+Overfull \vbox (31.60257pt too high) detected at line 225
  []
 
 [15
@@ -1500,7 +1493,7 @@ Overfull \vbox (31.60257pt too high) detected at line 226
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (19.03627pt too high) detected at line 319
+Overfull \vbox (19.03627pt too high) detected at line 318
  []
 
 [19
@@ -1580,13 +1573,13 @@ Overfull \vbox (19.03627pt too high) detected at line 319
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 567
+Overfull \vbox (2.44633pt too high) detected at line 566
  []
 
 [37
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 567
+Overfull \vbox (2.44633pt too high) detected at line 566
  []
 
 [38
@@ -1600,7 +1593,7 @@ Overfull \vbox (2.44633pt too high) detected at line 567
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 616
+Overfull \vbox (2.44633pt too high) detected at line 615
  []
 
 [40
@@ -1647,13 +1640,13 @@ Overfull \vbox (2.44633pt too high) detected at line 616
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (5.51128pt too high) detected at line 762
+Overfull \vbox (5.51128pt too high) detected at line 761
  []
 
 [51
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (5.51128pt too high) detected at line 762
+Overfull \vbox (5.51128pt too high) detected at line 761
  []
 
 [52
@@ -1667,7 +1660,7 @@ Overfull \vbox (5.51128pt too high) detected at line 762
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (12.34636pt too high) detected at line 816
+Overfull \vbox (12.34636pt too high) detected at line 815
  []
 
 [54
@@ -1731,7 +1724,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
  []
 
 )
-Overfull \vbox (11.45107pt too high) detected at line 943
+Overfull \vbox (11.45107pt too high) detected at line 942
  []
 
 [58
@@ -1757,7 +1750,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
  []
 
 )
-Overfull \vbox (11.45107pt too high) detected at line 943
+Overfull \vbox (11.45107pt too high) detected at line 942
  []
 
 [59
@@ -1830,31 +1823,31 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--17
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1039
+Overfull \vbox (1.72621pt too high) detected at line 1038
  []
 
 [64
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1039
+Overfull \vbox (1.72621pt too high) detected at line 1038
  []
 
 [65
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1039
+Overfull \vbox (1.72621pt too high) detected at line 1038
  []
 
 [66
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1039
+Overfull \vbox (1.72621pt too high) detected at line 1038
  []
 
 [67
 
 ] (./Rbasic_Day1.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1039
+Overfull \vbox (1.72621pt too high) detected at line 1038
  []
 
 [68
@@ -1872,7 +1865,7 @@ Overfull \vbox (1.72621pt too high) detected at line 1039
 ]
 
 LaTeX Font Warning: Font shape `T1/aess/m/sc' undefined
-(Font)              using `T1/aess/m/n' instead on input line 1078.
+(Font)              using `T1/aess/m/n' instead on input line 1077.
 
 [71
 
@@ -1884,17 +1877,175 @@ LaTeX Font Warning: Font shape `T1/aess/m/sc' undefined
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [73
+ (./Rbasic_Day1.vrb
+<figures/hw_tidy1.png, id=479, 561.09625pt x 308.15125pt>
+File: figures/hw_tidy1.png Graphic file (type png)
 
-] (./Rbasic_Day1.vrb)
+<use figures/hw_tidy1.png>
+Package pdftex.def Info: figures/hw_tidy1.png used on input line 10.
+(pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
+)
+Overfull \vbox (14.71878pt too high) detected at line 1104
+ []
+
+[73
+
+ <./figures/hw_tidy1.png>] (./Rbasic_Day1.vrb
+File: figures/hw_tidy1.png Graphic file (type png)
+ <use figures/hw_tidy1.png>
+Package pdftex.def Info: figures/hw_tidy1.png used on input line 10.
+(pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
+)
+Overfull \vbox (14.71878pt too high) detected at line 1104
+ []
+
 [74
-
-] (./Rbasic_Day1.vrb) [75
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [76
+ (./Rbasic_Day1.vrb
+File: figures/hw_tidy1.png Graphic file (type png)
+ <use figures/hw_tidy1.png>
+Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
+(pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
+)
+Overfull \vbox (28.5187pt too high) detected at line 1121
+ []
+
+[75
+
+] (./Rbasic_Day1.vrb
+File: figures/hw_tidy1.png Graphic file (type png)
+ <use figures/hw_tidy1.png>
+Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
+(pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
+)
+Overfull \vbox (28.5187pt too high) detected at line 1121
+ []
+
+[76
+
+] (./Rbasic_Day1.vrb
+File: figures/hw_tidy1.png Graphic file (type png)
+ <use figures/hw_tidy1.png>
+Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
+(pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
+)
+Overfull \vbox (28.5187pt too high) detected at line 1121
+ []
+
+[77
+
+] (./Rbasic_Day1.vrb
+File: figures/hw_tidy1.png Graphic file (type png)
+ <use figures/hw_tidy1.png>
+Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
+(pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
+)
+Overfull \vbox (28.5187pt too high) detected at line 1121
+ []
+
+[78
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb
+<figures/hw_tidy2.png, id=512, 783.92876pt x 243.91125pt>
+File: figures/hw_tidy2.png Graphic file (type png)
+
+<use figures/hw_tidy2.png>
+Package pdftex.def Info: figures/hw_tidy2.png used on input line 12.
+(pdftex.def)             Requested size: 195.9817pt x 60.97766pt.
+)
+Overfull \vbox (11.39449pt too high) detected at line 1138
+ []
+
+[79
+
+ <./figures/hw_tidy2.png>]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [80
+
+] (./Rbasic_Day1.vrb)
+[81
+
+] (./Rbasic_Day1.vrb) [82
+
+] (./Rbasic_Day1.vrb) [83
+
+] (./Rbasic_Day1.vrb)
+[84
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 2.
+
+<figures/hw_tidy3-1.png, id=545, 808.01875pt x 359.3425pt>
+File: figures/hw_tidy3-1.png Graphic file (type png)
+
+<use figures/hw_tidy3-1.png>
+Package pdftex.def Info: figures/hw_tidy3-1.png used on input line 5.
+(pdftex.def)             Requested size: 3636.07553pt x 1617.03726pt.
+) [85
+
+ <./figures/hw_tidy3-1.png>]
+\openout4 = `Rbasic_Day1.vrb'.
+
+
+(./Rbasic_Day1.vrb <figures/hw_tidy3-2.png, id=553, 400.49625pt x 298.11375pt>
+File: figures/hw_tidy3-2.png Graphic file (type png)
+
+<use figures/hw_tidy3-2.png>
+Package pdftex.def Info: figures/hw_tidy3-2.png used on input line 5.
+(pdftex.def)             Requested size: 100.12381pt x 74.52824pt.
+)
+Overfull \vbox (13.71573pt too high) detected at line 1174
+ []
+
+[86
+
+ <./figures/hw_tidy3-2.png>]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb
+<figures/hw_tidy4.png, id=560, 698.61pt x 434.62375pt>
+File: figures/hw_tidy4.png Graphic file (type png)
+
+<use figures/hw_tidy4.png>
+Package pdftex.def Info: figures/hw_tidy4.png used on input line 5.
+(pdftex.def)             Requested size: 245.83282pt x 152.9363pt.
+) [87
+
+ <./figures/hw_tidy4.png>]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb
+<figures/hw_tidy5.png, id=567, 769.87625pt x 308.15125pt>
+File: figures/hw_tidy5.png Graphic file (type png)
+
+<use figures/hw_tidy5.png>
+Package pdftex.def Info: figures/hw_tidy5.png used on input line 5.
+(pdftex.def)             Requested size: 245.83282pt x 98.39882pt.
+) [88
+
+ <./figures/hw_tidy5.png>]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb)
+[89
+
+] (./Rbasic_Day1.vrb) [90
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [91
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -1942,7 +2093,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
 []  
  []
 
-) [77
+) [92
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 4--8
@@ -1974,7 +2125,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
 []  
  []
 
-) [78
+) [93
 
 ] (./Rbasic_Day1.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 4--8
@@ -2006,7 +2157,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
 []  
  []
 
-) [79
+) [94
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2032,10 +2183,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 50--50
  []
 
 )
-Overfull \vbox (18.25107pt too high) detected at line 1236
+Overfull \vbox (18.25107pt too high) detected at line 1336
  []
 
-[80
+[95
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2056,10 +2207,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 27--27
  []
 
 )
-Overfull \vbox (2.01616pt too high) detected at line 1274
+Overfull \vbox (2.01616pt too high) detected at line 1374
  []
 
-[81
+[96
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2084,7 +2235,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--42
 []  
  []
 
-) [82
+) [97
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2111,7 +2262,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
 []  
  []
 
-) [83
+) [98
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2126,7 +2277,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
 []  
  []
 
-) [84
+) [99
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2141,7 +2292,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
 [][]  
  []
 
-) [85
+) [100
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2156,7 +2307,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 44--44
 []  
  []
 
-) [86
+) [101
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2171,7 +2322,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 26--26
 [][]  
  []
 
-) [87
+) [102
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2187,29 +2338,29 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 51--51
  []
 
 )
-Overfull \vbox (2.57608pt too high) detected at line 1595
+Overfull \vbox (2.57608pt too high) detected at line 1695
  []
 
-[88
+[103
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [89
+ (./Rbasic_Day1.vrb) [104
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [90
+ (./Rbasic_Day1.vrb) [105
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (17.31618pt too high) detected at line 1646
+Overfull \vbox (17.31618pt too high) detected at line 1746
  []
 
-[91
+[106
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2224,449 +2375,449 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 35--35
 [][]  
  []
 
-) [92
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
-[]  
- []
-
-)
-Overfull \vbox (30.3509pt too high) detected at line 1772
- []
-
-[93
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
-[]  
- []
-
-)
-Overfull \vbox (30.3509pt too high) detected at line 1772
- []
-
-[94
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
-[]  
- []
-
-)
-Overfull \vbox (30.3509pt too high) detected at line 1772
- []
-
-[95
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
-[]  
- []
-
-)
-Overfull \vbox (30.3509pt too high) detected at line 1772
- []
-
-[96
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
-[]  
- []
-
-)
-Overfull \vbox (30.3509pt too high) detected at line 1772
- []
-
-[97
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [98
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [99
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [100
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [101
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [102
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
-
-) [103
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
-[]  
- []
-
-) [104
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
-[]  
- []
-
-) [105
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
-[]  
- []
-
-) [106
-
-] (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
-[]  
- []
-
 ) [107
 
-] [108
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
+[]  
+ []
+
+)
+Overfull \vbox (30.3509pt too high) detected at line 1872
+ []
+
+[108
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
+[]  
+ []
+
+)
+Overfull \vbox (30.3509pt too high) detected at line 1872
+ []
+
+[109
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
+[]  
+ []
+
+)
+Overfull \vbox (30.3509pt too high) detected at line 1872
+ []
+
+[110
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
+[]  
+ []
+
+)
+Overfull \vbox (30.3509pt too high) detected at line 1872
+ []
+
+[111
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
+[]  
+ []
+
+)
+Overfull \vbox (30.3509pt too high) detected at line 1872
+ []
+
+[112
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [109
+ (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [113
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [114
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [115
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [116
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [117
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
+[]  
+ []
+
+) [118
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [110
+ (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
+[]  
+ []
+
+) [119
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
+[]  
+ []
+
+) [120
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
+[]  
+ []
+
+) [121
+
+] (./Rbasic_Day1.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
+[]  
+ []
+
+) [122
+
+] [123
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [124
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [125
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
 
-(./Rbasic_Day1.vrb) [111
+(./Rbasic_Day1.vrb) [126
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [112
+ (./Rbasic_Day1.vrb) [127
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2682,15 +2833,15 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 528--528
  []
 
 )
-Overfull \vbox (3945.17018pt too high) detected at line 2574
+Overfull \vbox (3943.23024pt too high) detected at line 2674
  []
 
-[113
+[128
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [114
+ (./Rbasic_Day1.vrb) [129
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2706,61 +2857,69 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 520--520
  []
 
 )
-Overfull \vbox (3906.98045pt too high) detected at line 3121
+Overfull \vbox (3906.98045pt too high) detected at line 3221
  []
 
-[115
+[130
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 12--12
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 10--10
 []  
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 25--25
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 23--23
 []  
  []
 
-) [116
+) [131
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [117
+ (./Rbasic_Day1.vrb) [132
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [118
+ (./Rbasic_Day1.vrb) [133
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [119
+ (./Rbasic_Day1.vrb) [134
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [120
+ (./Rbasic_Day1.vrb
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <9> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 2.
+) [135
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [121
+ (./Rbasic_Day1.vrb) [136
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-[122
+[137
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [123
+ (./Rbasic_Day1.vrb) [138
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [139
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
@@ -2775,103 +2934,103 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--17
 []  
  []
 
-) [124
+) [140
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [125
+ (./Rbasic_Day1.vrb) [141
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [126
+ (./Rbasic_Day1.vrb) [142
 
-] (./Rbasic_Day1.vrb) [127
-
-] (./Rbasic_Day1.vrb) [128
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [129
-
-] (./Rbasic_Day1.vrb)
-[130
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [131
-
-] (./Rbasic_Day1.vrb) [132
-
-] (./Rbasic_Day1.vrb)
-[133
-
-] (./Rbasic_Day1.vrb) [134
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [135
-
-] (./Rbasic_Day1.vrb)
-[136
-
-] (./Rbasic_Day1.vrb) [137
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [138
-
-] (./Rbasic_Day1.vrb)
-[139
-
-] (./Rbasic_Day1.vrb) [140
-
-] (./Rbasic_Day1.vrb) [141
-
-] (./Rbasic_Day1.vrb)
-[142
-
-]
-\openout4 = `Rbasic_Day1.vrb'.
-
- (./Rbasic_Day1.vrb) [143
+] (./Rbasic_Day1.vrb) [143
 
 ] (./Rbasic_Day1.vrb) [144
 
-] (./Rbasic_Day1.vrb)
-[145
-
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [146
+ (./Rbasic_Day1.vrb) [145
+
+] (./Rbasic_Day1.vrb)
+[146
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb) [147
 
+] (./Rbasic_Day1.vrb) [148
+
 ] (./Rbasic_Day1.vrb)
-[148
+[149
+
+] (./Rbasic_Day1.vrb) [150
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [151
+
+] (./Rbasic_Day1.vrb)
+[152
+
+] (./Rbasic_Day1.vrb) [153
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [154
+
+] (./Rbasic_Day1.vrb)
+[155
+
+] (./Rbasic_Day1.vrb) [156
+
+] (./Rbasic_Day1.vrb) [157
+
+] (./Rbasic_Day1.vrb)
+[158
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [159
+
+] (./Rbasic_Day1.vrb) [160
+
+] (./Rbasic_Day1.vrb)
+[161
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [162
+
+]
+\openout4 = `Rbasic_Day1.vrb'.
+
+ (./Rbasic_Day1.vrb) [163
+
+] (./Rbasic_Day1.vrb)
+[164
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
  (./Rbasic_Day1.vrb)
-Overfull \vbox (23.70113pt too high) detected at line 3462
+Overfull \vbox (23.70113pt too high) detected at line 3569
  []
 
-[149
+[165
 
 ]
 \openout4 = `Rbasic_Day1.vrb'.
 
- (./Rbasic_Day1.vrb) [150
+ (./Rbasic_Day1.vrb) [166
 
 ]
 \tf@nav=\write8
@@ -2883,26 +3042,26 @@ Overfull \vbox (23.70113pt too high) detected at line 3462
 \tf@snm=\write10
 \openout10 = `Rbasic_Day1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3481.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3481.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3588.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3588.
  (./Rbasic_Day1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3481.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3481.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3588.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3588.
 
 Package rerunfilecheck Info: File `Rbasic_Day1.out' has not changed.
-(rerunfilecheck)             Checksum: 7FF3ECD018A6C985611E2B771E0F6090;522.
+(rerunfilecheck)             Checksum: 8C5510586E8AA1E5EA1943D386DE4F68;522.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3481.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3588.
  ) 
 Here is how much of TeX's memory you used:
- 25311 strings out of 493089
- 491430 string characters out of 6134843
- 940879 words of memory out of 5000000
- 27535 multiletter control sequences out of 15000+600000
- 74319 words of font info for 162 fonts, out of 8000000 for 9000
+ 25441 strings out of 493089
+ 493353 string characters out of 6134843
+ 941893 words of memory out of 5000000
+ 27591 multiletter control sequences out of 15000+600000
+ 79680 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,103p,1713b,723s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -2926,10 +3085,10 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sfst0800.pfb>
-Output written on Rbasic_Day1.pdf (150 pages, 790931 bytes).
+Output written on Rbasic_Day1.pdf (166 pages, 1295596 bytes).
 PDF statistics:
- 1028 PDF objects out of 1200 (max. 8388607)
- 824 compressed objects within 9 object streams
- 310 named destinations out of 1000 (max. 500000)
- 159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1130 PDF objects out of 1200 (max. 8388607)
+ 898 compressed objects within 9 object streams
+ 342 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

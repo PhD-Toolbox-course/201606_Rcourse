@@ -75,7 +75,6 @@ University of Cambridge \\
 \begin{frame}{Overview}
 	\small
 	\tableofcontents
-	\pdfnote{remember to say hello}
 \end{frame}
 
 %----------------------------------------------------------------------------------------
@@ -823,7 +822,7 @@ coding.pc
 		\item Use \textbf{library(\ldots)} function to load the newly installed features
 		\item \textbf{library(``Matrix'')};  loads matrix functions
 	\end{itemize}
-	\footnotesize PS: installed.packages(): Lists all the packages you've got installed locally\\
+	\footnotesize PS: library(): Lists all the packages you've got installed locally\\
 	PS2: .libPaths(): to know where the libraries are installed
 \end{frame}
 
@@ -854,6 +853,106 @@ coding.pc
 		\item A data frame is a \textbf{set of observations} of a set of variables  in other words, the \underline{outcome of an experiment}.\\ 
 			\tiny [Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1 - 23] 
 \pause
+	\small
+	\item Tidy datasets provide a standardized way to link the structure of a dataset (\textbf{its physical layout}) with its semantics (\textbf{its meaning})	
+	\end{itemize}
+	\begin{center} \includegraphics[scale=0.25]{figures/hw_tidy1.png} \end{center}
+ 
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data frame}
+	\begin{itemize}
+		\small
+		\item A dataset is a collection of \textbf{values}
+			\pause
+		\item Every value belongs to a \textbf{variable} and an \textbf{observation}
+			\pause
+		\item A \underline{variable} contains all values that \textbf{measure the same underlying attribute} (like height, temperature, duration) across units
+			\pause
+		\item An \underline{observation} contains all values \textbf{measured on the same unit} (like a person, or a day, or a race) across attributes
+	\end{itemize}
+	\begin{center} \includegraphics[scale=0.25]{figures/hw_tidy1.png} \end{center}
+ 
+\end{frame}
+
+%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data frame}
+	\begin{itemize}
+		\small
+	\item Table 3 reorganizes Table 1 to make the values, variables and observations more clear 
+	\item The dataset contains 18 values representing three variables and six observations; the variables are:
+		\begin{enumerate}
+			\item \textbf{person}, with three possible values (John Smith, Mary Johnson, and Jane Doe)
+			\item \textbf{Treatment}, with two possible values (a and b)
+			\item \textbf{Result}, with five or six values depending on how you think of the missing value (NA, 16, 3, 2, 11, 1)
+		\end{enumerate}
+	\end{itemize}
+	\begin{center} \includegraphics[scale=0.25]{figures/hw_tidy2.png} \end{center}
+ 
+\end{frame}
+
+%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data frame}
+	\begin{itemize}
+		\item A dataset is messy or tidy depending on how rows, columns and tables are matched up with observations, variables and types
+		\item In tidy data:
+			\begin{enumerate}
+		\pause
+				\item Each variable forms a column
+		\pause
+				\item Each observation forms a row
+		\pause
+				\item Each type of observational unit forms a table
+			\end{enumerate}
+		\pause
+		\item Three common problems with messy datasets are:
+	\end{itemize}
+\end{frame}
+%%%%%%%
+%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data frame}
+	\centering \large \underline{Column headers are values, not variable names}
+	\vspace{5pt}
+
+	\begin{center} \includegraphics[scale=4.5]{figures/hw_tidy3-1.png} \end{center}
+\end{frame} 
+%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data frame}
+	\centering \large \underline{Column headers are values, not variable names}
+	\vspace{5pt}
+
+	\begin{center}	\includegraphics[scale=0.25]{figures/hw_tidy3-2.png} \end{center}
+\end{frame} 
+
+%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data frame}
+	\centering \large \underline{Multiple variables stored in one column}
+	\vspace{5pt}
+
+	\begin{center} \includegraphics{figures/hw_tidy4.png} \end{center}
+\end{frame} 
+
+
+%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data frame}
+	\centering \large \underline{Variables are stored in both rows and columns}
+	\vspace{5pt}
+
+	\begin{center} \includegraphics{figures/hw_tidy5.png} \end{center}
+\end{frame} 
+
+%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data frame}
+	\begin{itemize}
 		\small
 	\item For example, we might want to analyse information about a \underline{set of patients}. To start with, let's say we have ten patients and for each one we know their \textbf{name, sex, age, weight and whether they give consent} for their data to be made public
 \pause
@@ -864,6 +963,7 @@ coding.pc
 \end{frame}
 
 %%%%%%% 
+
 \begin{frame}[fragile]
 	\frametitle{Data frame}
 	\centering \LARGE The patients data frame
@@ -1051,7 +1151,7 @@ names(patients)
 	\centering \LARGE Matrices
 	\begin{itemize}
 		\small
-	\item Data frames are \texttt{R} speciality, but R also handles matrices
+	\item Data frames are \texttt{R} speciality, but \texttt{R} also handles matrices
 \rule{\textwidth}{0.4pt}
 \tiny
 <<>>=
@@ -1501,7 +1601,7 @@ df[which.min(df2),]
 	\begin{itemize}
 		\small
 		\item Base package
-		\item dplyr
+		\item readr
 	\vspace{20pt}
 		\item Set working directory
 \vspace{10pt}
@@ -1537,7 +1637,7 @@ x
 \rule{\textwidth}{0.4pt}\\
 \small
 		
-		\item dplyr
+		\item readr
 
 	\end{itemize}
 \end{frame}
@@ -1554,7 +1654,7 @@ x
 				\item 'head' command can help
 				\item 'View' command to inspect the table in the viewer
 			\end{itemize}
-		\item dplyr
+		\item readr
 
 	\end{itemize}
 \end{frame}
@@ -1569,7 +1669,7 @@ x
 	\begin{itemize}
 		\small
 		\item Base package
-		\item dplyr
+		\item readr
 \rule{\textwidth}{0.4pt}\\
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
@@ -1592,22 +1692,11 @@ x2
 	\centering \Large Import txt files
 	\begin{itemize}
 		\small
-		\item dplyr
+		\item Compare read.txt and read\_delim
 			\begin{itemize}
-				\item Try 'class(x2)'
-				\item The object 'x2' has different classes
-				\item On the top of the output you can see the data.frame dimentions
-				\item If there is not space for all the columns to be displayed, they are reported anyway
+				\item Use the command 'str()'
+				\item Which are the differences between the two datasets?
 			\end{itemize}
-\rule{\textwidth}{0.4pt}\\
-\tiny
-\setlength{\fancyvrbtopsep}{-1pt}
-\setlength{\fancyvrbpartopsep}{-1pt}
-<<>>=
-library(readr)
-class(x2)
-@
-\rule{\textwidth}{0.4pt}\\
 \small
 	
 	\end{itemize}

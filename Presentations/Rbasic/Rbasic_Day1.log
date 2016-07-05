@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  5 JUL 2016 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.4)  5 JUL 2016 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1379,7 +1379,7 @@ File: figures/R-project.png Graphic file (type png)
 Package pdftex.def Info: figures/R-project.png used on input line 120.
 (pdftex.def)             Requested size: 260.22154pt x 187.44984pt.
 
-Overfull \vbox (2.03136pt too high) detected at line 120
+Overfull \vbox (19.50636pt too high) detected at line 120
  []
 
 [6
@@ -3305,7 +3305,7 @@ live/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/cm-super/sfst0800.pfb>
-Output written on Rbasic_Day1.pdf (181 pages, 2194895 bytes).
+Output written on Rbasic_Day1.pdf (181 pages, 2195032 bytes).
 PDF statistics:
  1242 PDF objects out of 1440 (max. 8388607)
  978 compressed objects within 10 object streams

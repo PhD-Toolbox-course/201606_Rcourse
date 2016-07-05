@@ -115,7 +115,7 @@ University of Cambridge \\
         \Large The \texttt{R} Project for Statistical Computing\\
 	\small You can find \texttt{R} here:
 	\url{https://www.r-project.org}\\
-	\includegraphics[scale=0.25]{figures/R-project.png}
+	\begin{center} \includegraphics[scale=0.25]{figures/R-project.png} \end{center}
 \end{frame}
 
 %%%%%%% 
